@@ -247,6 +247,12 @@
     "from": "kwb.lca"
   },
   {
+    "package": "kwb.datetime",
+    "url": "https://github.com/kwb-r/kwb.datetime",
+    "via": ["kwb.logger"],
+    "from": "kwb.logger"
+  },
+  {
     "package": "kwb.db",
     "url": "https://github.com/kwb-r/kwb.db",
     "via": ["dwc.wells"],
@@ -1242,6 +1248,18 @@
     "url": "https://github.com/kwb-r/kwb.utils",
     "via": ["kwb.lca", "kwb.readxl"],
     "from": "kwb.lca"
+  },
+  {
+    "package": "kwb.utils",
+    "url": "https://github.com/kwb-r/kwb.utils",
+    "via": ["kwb.logger", "kwb.datetime"],
+    "from": "kwb.logger"
+  },
+  {
+    "package": "kwb.utils",
+    "url": "https://github.com/kwb-r/kwb.utils",
+    "via": ["kwb.logger"],
+    "from": "kwb.logger"
   },
   {
     "package": "kwb.vs2dh",
