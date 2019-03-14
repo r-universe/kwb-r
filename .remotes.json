@@ -1569,6 +1569,12 @@
     "from": "kwb.readxl"
   },
   {
+    "package": "kwb.file",
+    "url": "https://github.com/kwb-r/kwb.file",
+    "via": ["kwb.svn"],
+    "from": "kwb.svn"
+  },
+  {
     "package": "kwb.flusshygiene",
     "url": "https://github.com/kwb-r/kwb.flusshygiene",
     "via": ["fhpredict"],
@@ -4131,6 +4137,19 @@
     "url": "https://github.com/kwb-r/kwb.utils",
     "via": ["kwb.site"],
     "from": "kwb.site"
+  },
+  {
+    "package": "kwb.utils",
+    "url": "https://github.com/kwb-r/kwb.utils",
+    "via": ["kwb.svn", "kwb.file"],
+    "branch": "v0.6.0",
+    "from": "kwb.svn"
+  },
+  {
+    "package": "kwb.utils",
+    "url": "https://github.com/kwb-r/kwb.utils",
+    "via": ["kwb.svn"],
+    "from": "kwb.svn"
   },
   {
     "package": "kwb.vs2dh",
