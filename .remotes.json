@@ -76,6 +76,13 @@
     "from": "kwb.endnote"
   },
   {
+    "package": "kwb.code",
+    "url": "https://github.com/kwb-r/kwb.code",
+    "via": ["kwb.fakin"],
+    "branch": "v0.1.0",
+    "from": "kwb.fakin"
+  },
+  {
     "package": "kwb.datetime",
     "url": "https://github.com/kwb-r/kwb.datetime",
     "via": ["dwc.wells", "kwb.db"],
@@ -194,6 +201,12 @@
     "url": "https://github.com/kwb-r/kwb.datetime",
     "via": ["kwb.event", "kwb.plot"],
     "from": "kwb.event"
+  },
+  {
+    "package": "kwb.datetime",
+    "url": "https://github.com/kwb-r/kwb.datetime",
+    "via": ["kwb.fakin", "kwb.plot"],
+    "from": "kwb.fakin"
   },
   {
     "package": "kwb.db",
@@ -336,6 +349,30 @@
     "from": "kwb.endnote"
   },
   {
+    "package": "kwb.file",
+    "url": "https://github.com/kwb-r/kwb.file",
+    "via": ["kwb.fakin", "pathlist"],
+    "from": "kwb.fakin"
+  },
+  {
+    "package": "kwb.file",
+    "url": "https://github.com/kwb-r/kwb.file",
+    "via": ["kwb.fakin", "kwb.code"],
+    "from": "kwb.fakin"
+  },
+  {
+    "package": "kwb.file",
+    "url": "https://github.com/kwb-r/kwb.file",
+    "via": ["kwb.fakin"],
+    "from": "kwb.fakin"
+  },
+  {
+    "package": "kwb.file",
+    "url": "https://github.com/kwb-r/kwb.file",
+    "via": ["kwb.fakin", "kwb.pathdict"],
+    "from": "kwb.fakin"
+  },
+  {
     "package": "kwb.flusshygiene",
     "url": "https://github.com/kwb-r/kwb.flusshygiene",
     "via": ["fhpredict"],
@@ -367,6 +404,13 @@
     "via": ["kwb.endnote", "kwb.read", "kwb.fakin"],
     "branch": "v0.1.0",
     "from": "kwb.endnote"
+  },
+  {
+    "package": "kwb.pathdict",
+    "url": "https://github.com/kwb-r/kwb.pathdict",
+    "via": ["kwb.fakin"],
+    "branch": "v0.1.0",
+    "from": "kwb.fakin"
   },
   {
     "package": "kwb.plot",
@@ -403,6 +447,12 @@
     "url": "https://github.com/kwb-r/kwb.plot",
     "via": ["kwb.event"],
     "from": "kwb.event"
+  },
+  {
+    "package": "kwb.plot",
+    "url": "https://github.com/kwb-r/kwb.plot",
+    "via": ["kwb.fakin"],
+    "from": "kwb.fakin"
   },
   {
     "package": "kwb.python",
@@ -891,6 +941,70 @@
     "from": "kwb.event"
   },
   {
+    "package": "kwb.utils",
+    "url": "https://github.com/kwb-r/kwb.utils",
+    "via": ["kwb.fakin", "pathlist", "kwb.file"],
+    "branch": "v0.6.0",
+    "from": "kwb.fakin"
+  },
+  {
+    "package": "kwb.utils",
+    "url": "https://github.com/kwb-r/kwb.utils",
+    "via": ["kwb.fakin", "pathlist"],
+    "from": "kwb.fakin"
+  },
+  {
+    "package": "kwb.utils",
+    "url": "https://github.com/kwb-r/kwb.utils",
+    "via": ["kwb.fakin", "kwb.code"],
+    "from": "kwb.fakin"
+  },
+  {
+    "package": "kwb.utils",
+    "url": "https://github.com/kwb-r/kwb.utils",
+    "via": ["kwb.fakin", "kwb.code", "kwb.file"],
+    "branch": "v0.6.0",
+    "from": "kwb.fakin"
+  },
+  {
+    "package": "kwb.utils",
+    "url": "https://github.com/kwb-r/kwb.utils",
+    "via": ["kwb.fakin", "kwb.file"],
+    "branch": "v0.6.0",
+    "from": "kwb.fakin"
+  },
+  {
+    "package": "kwb.utils",
+    "url": "https://github.com/kwb-r/kwb.utils",
+    "via": ["kwb.fakin", "kwb.pathdict", "kwb.file"],
+    "branch": "v0.6.0",
+    "from": "kwb.fakin"
+  },
+  {
+    "package": "kwb.utils",
+    "url": "https://github.com/kwb-r/kwb.utils",
+    "via": ["kwb.fakin", "kwb.pathdict"],
+    "from": "kwb.fakin"
+  },
+  {
+    "package": "kwb.utils",
+    "url": "https://github.com/kwb-r/kwb.utils",
+    "via": ["kwb.fakin", "kwb.plot"],
+    "from": "kwb.fakin"
+  },
+  {
+    "package": "kwb.utils",
+    "url": "https://github.com/kwb-r/kwb.utils",
+    "via": ["kwb.fakin", "kwb.plot", "kwb.datetime"],
+    "from": "kwb.fakin"
+  },
+  {
+    "package": "kwb.utils",
+    "url": "https://github.com/kwb-r/kwb.utils",
+    "via": ["kwb.fakin"],
+    "from": "kwb.fakin"
+  },
+  {
     "package": "kwb.vs2dh",
     "url": "https://github.com/kwb-r/kwb.vs2dh",
     "via": ["kwb.demeau"],
@@ -963,6 +1077,12 @@
     "url": "https://github.com/hsonne/pathlist",
     "via": ["kwb.endnote", "kwb.read", "kwb.fakin"],
     "from": "kwb.endnote"
+  },
+  {
+    "package": "pathlist",
+    "url": "https://github.com/hsonne/pathlist",
+    "via": ["kwb.fakin"],
+    "from": "kwb.fakin"
   },
   {
     "package": "r2r",
