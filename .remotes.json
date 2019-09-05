@@ -132,6 +132,12 @@
     "from": "kwb.budget"
   },
   {
+    "package": "kwb.file",
+    "url": "https://github.com/kwb-r/kwb.file",
+    "via": ["kwb.code"],
+    "from": "kwb.code"
+  },
+  {
     "package": "kwb.flusshygiene",
     "url": "https://github.com/kwb-r/kwb.flusshygiene",
     "via": ["fhpredict"],
@@ -372,6 +378,19 @@
     "via": ["kwb.budget"],
     "branch": "v0.6.0",
     "from": "kwb.budget"
+  },
+  {
+    "package": "kwb.utils",
+    "url": "https://github.com/kwb-r/kwb.utils",
+    "via": ["kwb.code"],
+    "from": "kwb.code"
+  },
+  {
+    "package": "kwb.utils",
+    "url": "https://github.com/kwb-r/kwb.utils",
+    "via": ["kwb.code", "kwb.file"],
+    "branch": "v0.6.0",
+    "from": "kwb.code"
   },
   {
     "package": "odbc32",
