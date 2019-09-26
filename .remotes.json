@@ -4483,6 +4483,12 @@
   },
   {
     "package": "kwb.utils",
+    "url": "https://github.com/KWB-R/kwb.utils",
+    "via": ["kwb.ucode", "kwb.wtaq"],
+    "from": "kwb.ucode"
+  },
+  {
+    "package": "kwb.utils",
     "url": "https://github.com/kwb-r/kwb.utils",
     "via": ["kwb.vs2dh"],
     "from": "kwb.vs2dh"
@@ -4570,6 +4576,12 @@
     "url": "https://github.com/kwb-r/kwb.vs2dh",
     "via": ["kwb.demeau"],
     "from": "kwb.demeau"
+  },
+  {
+    "package": "kwb.wtaq",
+    "url": "https://github.com/kwb-r/kwb.wtaq",
+    "via": ["kwb.ucode"],
+    "from": "kwb.ucode"
   },
   {
     "package": "odbc32",
