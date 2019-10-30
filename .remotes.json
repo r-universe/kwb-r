@@ -209,6 +209,13 @@
     "from": "kwb.fakin"
   },
   {
+    "package": "kwb.datetime",
+    "url": "https://github.com/kwb-r/kwb.datetime",
+    "via": ["kwb.flusshygiene.app"],
+    "branch": "dev",
+    "from": "kwb.flusshygiene.app"
+  },
+  {
     "package": "kwb.db",
     "url": "https://github.com/kwb-r/kwb.db",
     "via": ["dwc.wells"],
@@ -263,6 +270,13 @@
     "url": "https://github.com/kwb-r/kwb.dwd",
     "via": ["ibathwater"],
     "from": "ibathwater"
+  },
+  {
+    "package": "kwb.dwd",
+    "url": "https://github.com/kwb-r/kwb.dwd",
+    "via": ["kwb.flusshygiene.app"],
+    "branch": "dev",
+    "from": "kwb.flusshygiene.app"
   },
   {
     "package": "kwb.en13508.2",
@@ -1016,6 +1030,25 @@
     "url": "https://github.com/kwb-r/kwb.utils",
     "via": ["kwb.flusshygiene"],
     "from": "kwb.flusshygiene"
+  },
+  {
+    "package": "kwb.utils",
+    "url": "https://github.com/kwb-r/kwb.utils",
+    "via": ["kwb.flusshygiene.app", "kwb.datetime"],
+    "from": "kwb.flusshygiene.app"
+  },
+  {
+    "package": "kwb.utils",
+    "url": "https://github.com/kwb-r/kwb.utils",
+    "via": ["kwb.flusshygiene.app", "kwb.dwd"],
+    "from": "kwb.flusshygiene.app"
+  },
+  {
+    "package": "kwb.utils",
+    "url": "https://github.com/kwb-r/kwb.utils",
+    "via": ["kwb.flusshygiene.app"],
+    "branch": "dev",
+    "from": "kwb.flusshygiene.app"
   },
   {
     "package": "kwb.vs2dh",
