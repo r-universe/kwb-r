@@ -983,6 +983,18 @@
     "from": "kwb.readxl"
   },
   {
+    "package": "kwb.datetime",
+    "url": "https://github.com/kwb-r/kwb.datetime",
+    "via": ["kwb.resilience", "kwb.event"],
+    "from": "kwb.resilience"
+  },
+  {
+    "package": "kwb.datetime",
+    "url": "https://github.com/kwb-r/kwb.datetime",
+    "via": ["kwb.resilience", "kwb.event", "kwb.plot"],
+    "from": "kwb.resilience"
+  },
+  {
     "package": "kwb.db",
     "url": "https://github.com/kwb-r/kwb.db",
     "via": ["dwc.wells"],
@@ -1291,6 +1303,12 @@
     "url": "https://github.com/kwb-r/kwb.event",
     "via": ["kwb.readxl"],
     "from": "kwb.readxl"
+  },
+  {
+    "package": "kwb.event",
+    "url": "https://github.com/KWB-R/kwb.event",
+    "via": ["kwb.resilience"],
+    "from": "kwb.resilience"
   },
   {
     "package": "kwb.fakin",
@@ -1932,6 +1950,12 @@
     "url": "https://github.com/kwb-r/kwb.plot",
     "via": ["kwb.readxl", "kwb.event"],
     "from": "kwb.readxl"
+  },
+  {
+    "package": "kwb.plot",
+    "url": "https://github.com/kwb-r/kwb.plot",
+    "via": ["kwb.resilience", "kwb.event"],
+    "from": "kwb.resilience"
   },
   {
     "package": "kwb.python",
@@ -4065,6 +4089,36 @@
     "url": "https://github.com/kwb-r/kwb.utils",
     "via": ["kwb.readxl"],
     "from": "kwb.readxl"
+  },
+  {
+    "package": "kwb.utils",
+    "url": "https://github.com/kwb-r/kwb.utils",
+    "via": ["kwb.resilience", "kwb.event"],
+    "from": "kwb.resilience"
+  },
+  {
+    "package": "kwb.utils",
+    "url": "https://github.com/kwb-r/kwb.utils",
+    "via": ["kwb.resilience", "kwb.event", "kwb.datetime"],
+    "from": "kwb.resilience"
+  },
+  {
+    "package": "kwb.utils",
+    "url": "https://github.com/kwb-r/kwb.utils",
+    "via": ["kwb.resilience", "kwb.event", "kwb.plot"],
+    "from": "kwb.resilience"
+  },
+  {
+    "package": "kwb.utils",
+    "url": "https://github.com/kwb-r/kwb.utils",
+    "via": ["kwb.resilience", "kwb.event", "kwb.plot", "kwb.datetime"],
+    "from": "kwb.resilience"
+  },
+  {
+    "package": "kwb.utils",
+    "url": "https://github.com/KWB-R/kwb.utils",
+    "via": ["kwb.resilience"],
+    "from": "kwb.resilience"
   },
   {
     "package": "kwb.vs2dh",
