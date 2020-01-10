@@ -1196,6 +1196,12 @@
     "from": "kwb.ogre.model"
   },
   {
+    "package": "kwb.file",
+    "url": "https://github.com/kwb-r/kwb.file",
+    "via": ["kwb.pathdict"],
+    "from": "kwb.pathdict"
+  },
+  {
     "package": "kwb.flusshygiene",
     "url": "https://github.com/kwb-r/kwb.flusshygiene",
     "via": ["fhpredict"],
@@ -3164,6 +3170,19 @@
     "url": "https://github.com/kwb-r/kwb.utils",
     "via": ["kwb.ogre.model"],
     "from": "kwb.ogre.model"
+  },
+  {
+    "package": "kwb.utils",
+    "url": "https://github.com/kwb-r/kwb.utils",
+    "via": ["kwb.pathdict", "kwb.file"],
+    "branch": "v0.6.0",
+    "from": "kwb.pathdict"
+  },
+  {
+    "package": "kwb.utils",
+    "url": "https://github.com/kwb-r/kwb.utils",
+    "via": ["kwb.pathdict"],
+    "from": "kwb.pathdict"
   },
   {
     "package": "kwb.vs2dh",
