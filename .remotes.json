@@ -235,6 +235,18 @@
     "from": "kwb.kuras.db"
   },
   {
+    "package": "kwb.datetime",
+    "url": "https://github.com/kwb-r/kwb.datetime",
+    "via": ["kwb.lca", "kwb.readxl", "kwb.event"],
+    "from": "kwb.lca"
+  },
+  {
+    "package": "kwb.datetime",
+    "url": "https://github.com/kwb-r/kwb.datetime",
+    "via": ["kwb.lca", "kwb.readxl", "kwb.event", "kwb.plot"],
+    "from": "kwb.lca"
+  },
+  {
     "package": "kwb.db",
     "url": "https://github.com/kwb-r/kwb.db",
     "via": ["dwc.wells"],
@@ -321,6 +333,12 @@
     "url": "https://github.com/kwb-r/kwb.event",
     "via": ["kwb.endnote", "kwb.read", "kwb.base"],
     "from": "kwb.endnote"
+  },
+  {
+    "package": "kwb.event",
+    "url": "https://github.com/kwb-r/kwb.event",
+    "via": ["kwb.lca", "kwb.readxl"],
+    "from": "kwb.lca"
   },
   {
     "package": "kwb.fakin",
@@ -417,6 +435,12 @@
     "url": "https://github.com/kwb-r/kwb.file",
     "via": ["kwb.infoworks", "kwb.nextcloud"],
     "from": "kwb.infoworks"
+  },
+  {
+    "package": "kwb.file",
+    "url": "https://github.com/kwb-r/kwb.file",
+    "via": ["kwb.lca", "kwb.readxl"],
+    "from": "kwb.lca"
   },
   {
     "package": "kwb.flusshygiene",
@@ -521,6 +545,12 @@
     "from": "kwb.kuras.db"
   },
   {
+    "package": "kwb.plot",
+    "url": "https://github.com/kwb-r/kwb.plot",
+    "via": ["kwb.lca", "kwb.readxl", "kwb.event"],
+    "from": "kwb.lca"
+  },
+  {
     "package": "kwb.python",
     "url": "https://github.com/kwb-r/kwb.python",
     "via": ["dwc.ar4gw"],
@@ -531,6 +561,12 @@
     "url": "https://github.com/kwb-r/kwb.read",
     "via": ["kwb.endnote"],
     "from": "kwb.endnote"
+  },
+  {
+    "package": "kwb.readxl",
+    "url": "https://github.com/kwb-r/kwb.readxl",
+    "via": ["kwb.lca"],
+    "from": "kwb.lca"
   },
   {
     "package": "kwb.utils",
@@ -1163,6 +1199,49 @@
     "via": ["kwb.kuras.db"],
     "branch": "v0.5.1",
     "from": "kwb.kuras.db"
+  },
+  {
+    "package": "kwb.utils",
+    "url": "https://github.com/kwb-r/kwb.utils",
+    "via": ["kwb.lca"],
+    "from": "kwb.lca"
+  },
+  {
+    "package": "kwb.utils",
+    "url": "https://github.com/kwb-r/kwb.utils",
+    "via": ["kwb.lca", "kwb.readxl", "kwb.event"],
+    "from": "kwb.lca"
+  },
+  {
+    "package": "kwb.utils",
+    "url": "https://github.com/kwb-r/kwb.utils",
+    "via": ["kwb.lca", "kwb.readxl", "kwb.event", "kwb.datetime"],
+    "from": "kwb.lca"
+  },
+  {
+    "package": "kwb.utils",
+    "url": "https://github.com/kwb-r/kwb.utils",
+    "via": ["kwb.lca", "kwb.readxl", "kwb.event", "kwb.plot"],
+    "from": "kwb.lca"
+  },
+  {
+    "package": "kwb.utils",
+    "url": "https://github.com/kwb-r/kwb.utils",
+    "via": ["kwb.lca", "kwb.readxl", "kwb.event", "kwb.plot", "kwb.datetime"],
+    "from": "kwb.lca"
+  },
+  {
+    "package": "kwb.utils",
+    "url": "https://github.com/kwb-r/kwb.utils",
+    "via": ["kwb.lca", "kwb.readxl", "kwb.file"],
+    "branch": "v0.6.0",
+    "from": "kwb.lca"
+  },
+  {
+    "package": "kwb.utils",
+    "url": "https://github.com/kwb-r/kwb.utils",
+    "via": ["kwb.lca", "kwb.readxl"],
+    "from": "kwb.lca"
   },
   {
     "package": "kwb.vs2dh",
