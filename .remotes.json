@@ -784,6 +784,12 @@
     "from": "kwb.ogre.model"
   },
   {
+    "package": "kwb.datetime",
+    "url": "https://github.com/kwb-r/kwb.datetime",
+    "via": ["kwb.plot"],
+    "from": "kwb.plot"
+  },
+  {
     "package": "kwb.db",
     "url": "https://github.com/kwb-r/kwb.db",
     "via": ["dwc.wells"],
@@ -3220,6 +3226,18 @@
     "url": "https://github.com/kwb-r/kwb.utils",
     "via": ["kwb.pkgstatus", "kwb.pkgbuild"],
     "from": "kwb.pkgstatus"
+  },
+  {
+    "package": "kwb.utils",
+    "url": "https://github.com/kwb-r/kwb.utils",
+    "via": ["kwb.plot"],
+    "from": "kwb.plot"
+  },
+  {
+    "package": "kwb.utils",
+    "url": "https://github.com/kwb-r/kwb.utils",
+    "via": ["kwb.plot", "kwb.datetime"],
+    "from": "kwb.plot"
   },
   {
     "package": "kwb.vs2dh",
