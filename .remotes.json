@@ -4280,6 +4280,12 @@
     "from": "kwb.vs2dh"
   },
   {
+    "package": "kwb.utils",
+    "url": "https://github.com/KWB-R/kwb.utils",
+    "via": ["kwb.wtaq"],
+    "from": "kwb.wtaq"
+  },
+  {
     "package": "kwb.vs2dh",
     "url": "https://github.com/kwb-r/kwb.vs2dh",
     "via": ["kwb.demeau"],
