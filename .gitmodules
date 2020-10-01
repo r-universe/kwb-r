@@ -355,6 +355,11 @@
 	shallow = true
 	branch = r3.0.0
 	registered = false
+[submodule "pathlist"]
+	path = pathlist
+	url = https://github.com/hsonne/pathlist
+	shallow = true
+	registered = false
 [submodule "r2r"]
 	path = r2r
 	url = https://github.com/vh-d/r2r
