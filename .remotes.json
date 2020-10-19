@@ -400,6 +400,13 @@
     "from": "ibathwater"
   },
   {
+    "package": "kwb.heatsine",
+    "url": "https://github.com/kwb-r/kwb.heatsine",
+    "via": ["kwb.heatsine.opencpu"],
+    "branch": "v0.1.5",
+    "from": "kwb.heatsine.opencpu"
+  },
+  {
     "package": "kwb.nextcloud",
     "url": "https://github.com/kwb-r/kwb.nextcloud",
     "via": ["dwc.ar4gw"],
@@ -1061,6 +1068,12 @@
     "url": "https://github.com/kwb-r/kwb.utils",
     "via": ["kwb.heatsine"],
     "from": "kwb.heatsine"
+  },
+  {
+    "package": "kwb.utils",
+    "url": "https://github.com/kwb-r/kwb.utils",
+    "via": ["kwb.heatsine.opencpu", "kwb.heatsine"],
+    "from": "kwb.heatsine.opencpu"
   },
   {
     "package": "kwb.vs2dh",
