@@ -14,6 +14,13 @@
     "from": "fakin.path.app"
   },
   {
+    "package": "aws.s3",
+    "url": "https://github.com/cloudyr/aws.s3",
+    "via": ["fhpredict"],
+    "branch": "v0.3.12",
+    "from": "fhpredict"
+  },
+  {
     "package": "kwb.datetime",
     "url": "https://github.com/kwb-r/kwb.datetime",
     "via": ["dwc.wells", "kwb.db"],
@@ -39,6 +46,13 @@
     "from": "fakin.path.app"
   },
   {
+    "package": "kwb.dwd",
+    "url": "https://github.com/kwb-r/kwb.dwd",
+    "via": ["fhpredict"],
+    "branch": "v0.1.0",
+    "from": "fhpredict"
+  },
+  {
     "package": "kwb.file",
     "url": "https://github.com/kwb-r/kwb.file",
     "via": ["dwc.ar4gw", "kwb.nextcloud"],
@@ -55,6 +69,13 @@
     "url": "https://github.com/kwb-r/kwb.file",
     "via": ["fakin.path.app"],
     "from": "fakin.path.app"
+  },
+  {
+    "package": "kwb.flusshygiene",
+    "url": "https://github.com/kwb-r/kwb.flusshygiene",
+    "via": ["fhpredict"],
+    "branch": "v0.3.0",
+    "from": "fhpredict"
   },
   {
     "package": "kwb.nextcloud",
@@ -148,6 +169,25 @@
     "url": "https://github.com/kwb-r/kwb.utils",
     "via": ["fakin.path.app"],
     "from": "fakin.path.app"
+  },
+  {
+    "package": "kwb.utils",
+    "url": "https://github.com/kwb-r/kwb.utils",
+    "via": ["fhpredict", "kwb.dwd"],
+    "from": "fhpredict"
+  },
+  {
+    "package": "kwb.utils",
+    "url": "https://github.com/kwb-r/kwb.utils",
+    "via": ["fhpredict", "kwb.flusshygiene"],
+    "from": "fhpredict"
+  },
+  {
+    "package": "kwb.utils",
+    "url": "https://github.com/kwb-r/kwb.utils",
+    "via": ["fhpredict"],
+    "branch": "v0.5.0",
+    "from": "fhpredict"
   },
   {
     "package": "odbc32",
