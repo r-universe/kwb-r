@@ -4367,6 +4367,12 @@
     "from": "sema.berlin.utils"
   },
   {
+    "package": "kwb.utils",
+    "url": "https://github.com/kwb-r/kwb.utils",
+    "via": ["urbanAnnualRunoff"],
+    "from": "urbanAnnualRunoff"
+  },
+  {
     "package": "kwb.vs2dh",
     "url": "https://github.com/kwb-r/kwb.vs2dh",
     "via": ["kwb.demeau"],
