@@ -376,3 +376,9 @@
 	url = https://github.com/ropensci/rorcid
 	shallow = true
 	registered = false
+[submodule "travis"]
+	path = travis
+	url = https://github.com/ropenscilabs/travis
+	shallow = true
+	branch = f2dd9a3640b0cd8266b0a813c8eaf6bf3775c83d
+	registered = false
