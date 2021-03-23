@@ -214,6 +214,12 @@
     "from": "ibathwater"
   },
   {
+    "package": "kwb.utils",
+    "url": "https://github.com/kwb-r/kwb.utils",
+    "via": ["kwb.abimo"],
+    "from": "kwb.abimo"
+  },
+  {
     "package": "odbc32",
     "url": "https://github.com/hsonne/odbc32",
     "via": ["dwc.wells", "kwb.db"],
