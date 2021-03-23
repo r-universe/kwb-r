@@ -225,6 +225,12 @@
     "from": "kwb.ogre.model"
   },
   {
+    "package": "kwb.code",
+    "url": "https://github.com/kwb-r/kwb.code",
+    "via": ["kwb.prep"],
+    "from": "kwb.prep"
+  },
+  {
     "package": "kwb.datetime",
     "url": "https://github.com/kwb-r/kwb.datetime",
     "via": ["dwc.wells", "kwb.db"],
@@ -1206,6 +1212,18 @@
     "url": "https://github.com/kwb-r/kwb.file",
     "via": ["kwb.pathdict"],
     "from": "kwb.pathdict"
+  },
+  {
+    "package": "kwb.file",
+    "url": "https://github.com/kwb-r/kwb.file",
+    "via": ["kwb.prep", "kwb.code"],
+    "from": "kwb.prep"
+  },
+  {
+    "package": "kwb.file",
+    "url": "https://github.com/kwb-r/kwb.file",
+    "via": ["kwb.prep"],
+    "from": "kwb.prep"
   },
   {
     "package": "kwb.flusshygiene",
@@ -3238,6 +3256,33 @@
     "url": "https://github.com/kwb-r/kwb.utils",
     "via": ["kwb.plot", "kwb.datetime"],
     "from": "kwb.plot"
+  },
+  {
+    "package": "kwb.utils",
+    "url": "https://github.com/kwb-r/kwb.utils",
+    "via": ["kwb.prep", "kwb.code"],
+    "from": "kwb.prep"
+  },
+  {
+    "package": "kwb.utils",
+    "url": "https://github.com/kwb-r/kwb.utils",
+    "via": ["kwb.prep", "kwb.code", "kwb.file"],
+    "branch": "v0.6.0",
+    "from": "kwb.prep"
+  },
+  {
+    "package": "kwb.utils",
+    "url": "https://github.com/kwb-r/kwb.utils",
+    "via": ["kwb.prep", "kwb.file"],
+    "branch": "v0.6.0",
+    "from": "kwb.prep"
+  },
+  {
+    "package": "kwb.utils",
+    "url": "https://github.com/kwb-r/kwb.utils",
+    "via": ["kwb.prep"],
+    "branch": "dev",
+    "from": "kwb.prep"
   },
   {
     "package": "kwb.vs2dh",
