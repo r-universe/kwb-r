@@ -540,6 +540,12 @@
     "from": "kwb.lca"
   },
   {
+    "package": "kwb.file",
+    "url": "https://github.com/kwb-r/kwb.file",
+    "via": ["kwb.nextcloud"],
+    "from": "kwb.nextcloud"
+  },
+  {
     "package": "kwb.flusshygiene",
     "url": "https://github.com/kwb-r/kwb.flusshygiene",
     "via": ["fhpredict"],
@@ -1507,6 +1513,19 @@
     "url": "https://github.com/kwb-r/kwb.utils",
     "via": ["kwb.monitoring"],
     "from": "kwb.monitoring"
+  },
+  {
+    "package": "kwb.utils",
+    "url": "https://github.com/kwb-r/kwb.utils",
+    "via": ["kwb.nextcloud", "kwb.file"],
+    "branch": "v0.6.0",
+    "from": "kwb.nextcloud"
+  },
+  {
+    "package": "kwb.utils",
+    "url": "https://github.com/kwb-r/kwb.utils",
+    "via": ["kwb.nextcloud"],
+    "from": "kwb.nextcloud"
   },
   {
     "package": "kwb.vs2dh",
