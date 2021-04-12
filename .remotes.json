@@ -1,0 +1,39 @@
+[
+  {
+    "package": "kwb.file",
+    "url": "https://github.com/kwb-r/kwb.file",
+    "via": ["dwc.ar4gw", "kwb.nextcloud"],
+    "from": "dwc.ar4gw"
+  },
+  {
+    "package": "kwb.nextcloud",
+    "url": "https://github.com/kwb-r/kwb.nextcloud",
+    "via": ["dwc.ar4gw"],
+    "from": "dwc.ar4gw"
+  },
+  {
+    "package": "kwb.python",
+    "url": "https://github.com/kwb-r/kwb.python",
+    "via": ["dwc.ar4gw"],
+    "from": "dwc.ar4gw"
+  },
+  {
+    "package": "kwb.utils",
+    "url": "https://github.com/kwb-r/kwb.utils",
+    "via": ["dwc.ar4gw", "kwb.nextcloud", "kwb.file"],
+    "branch": "v0.6.0",
+    "from": "dwc.ar4gw"
+  },
+  {
+    "package": "kwb.utils",
+    "url": "https://github.com/kwb-r/kwb.utils",
+    "via": ["dwc.ar4gw", "kwb.nextcloud"],
+    "from": "dwc.ar4gw"
+  },
+  {
+    "package": "kwb.utils",
+    "url": "https://github.com/kwb-r/kwb.utils",
+    "via": ["dwc.ar4gw"],
+    "from": "dwc.ar4gw"
+  }
+]
