@@ -53,6 +53,12 @@
     "from": "fhpredict"
   },
   {
+    "package": "kwb.dwd",
+    "url": "https://github.com/kwb-r/kwb.dwd",
+    "via": ["ibathwater"],
+    "from": "ibathwater"
+  },
+  {
     "package": "kwb.file",
     "url": "https://github.com/kwb-r/kwb.file",
     "via": ["dwc.ar4gw", "kwb.nextcloud"],
@@ -76,6 +82,12 @@
     "via": ["fhpredict"],
     "branch": "v0.3.0",
     "from": "fhpredict"
+  },
+  {
+    "package": "kwb.flusshygiene",
+    "url": "https://github.com/kwb-r/kwb.flusshygiene",
+    "via": ["ibathwater"],
+    "from": "ibathwater"
   },
   {
     "package": "kwb.nextcloud",
@@ -188,6 +200,18 @@
     "via": ["fhpredict"],
     "branch": "v0.5.0",
     "from": "fhpredict"
+  },
+  {
+    "package": "kwb.utils",
+    "url": "https://github.com/kwb-r/kwb.utils",
+    "via": ["ibathwater", "kwb.dwd"],
+    "from": "ibathwater"
+  },
+  {
+    "package": "kwb.utils",
+    "url": "https://github.com/kwb-r/kwb.utils",
+    "via": ["ibathwater", "kwb.flusshygiene"],
+    "from": "ibathwater"
   },
   {
     "package": "odbc32",
