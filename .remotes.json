@@ -387,6 +387,12 @@
     "from": "kwb.fakin"
   },
   {
+    "package": "kwb.file",
+    "url": "https://github.com/kwb-r/kwb.file",
+    "via": ["kwb.infoworks", "kwb.nextcloud"],
+    "from": "kwb.infoworks"
+  },
+  {
     "package": "kwb.flusshygiene",
     "url": "https://github.com/kwb-r/kwb.flusshygiene",
     "via": ["fhpredict"],
@@ -418,6 +424,12 @@
     "via": ["kwb.budget"],
     "branch": "dev",
     "from": "kwb.budget"
+  },
+  {
+    "package": "kwb.nextcloud",
+    "url": "https://github.com/kwb-r/kwb.nextcloud",
+    "via": ["kwb.infoworks"],
+    "from": "kwb.infoworks"
   },
   {
     "package": "kwb.pathdict",
@@ -1074,6 +1086,19 @@
     "url": "https://github.com/kwb-r/kwb.utils",
     "via": ["kwb.heatsine.opencpu", "kwb.heatsine"],
     "from": "kwb.heatsine.opencpu"
+  },
+  {
+    "package": "kwb.utils",
+    "url": "https://github.com/kwb-r/kwb.utils",
+    "via": ["kwb.infoworks", "kwb.nextcloud", "kwb.file"],
+    "branch": "v0.6.0",
+    "from": "kwb.infoworks"
+  },
+  {
+    "package": "kwb.utils",
+    "url": "https://github.com/kwb-r/kwb.utils",
+    "via": ["kwb.infoworks", "kwb.nextcloud"],
+    "from": "kwb.infoworks"
   },
   {
     "package": "kwb.vs2dh",
