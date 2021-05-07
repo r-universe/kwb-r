@@ -1040,6 +1040,12 @@
     "from": "qmra.db"
   },
   {
+    "package": "kwb.datetime",
+    "url": "https://github.com/kwb-r/kwb.datetime",
+    "via": ["wasserportal"],
+    "from": "wasserportal"
+  },
+  {
     "package": "kwb.db",
     "url": "https://github.com/kwb-r/kwb.db",
     "via": ["dwc.wells"],
@@ -1773,6 +1779,12 @@
     "from": "pkgmeta"
   },
   {
+    "package": "kwb.orcid",
+    "url": "https://github.com/kwb-r/kwb.orcid",
+    "via": ["wasserportal", "kwb.pkgbuild"],
+    "from": "wasserportal"
+  },
+  {
     "package": "kwb.pathdict",
     "url": "https://github.com/kwb-r/kwb.pathdict",
     "via": ["kwb.endnote", "kwb.read", "kwb.fakin"],
@@ -1827,6 +1839,12 @@
     "via": ["pkgmeta", "kwb.pkgstatus"],
     "branch": "v0.1.7",
     "from": "pkgmeta"
+  },
+  {
+    "package": "kwb.pkgbuild",
+    "url": "https://github.com/kwb-r/kwb.pkgbuild",
+    "via": ["wasserportal"],
+    "from": "wasserportal"
   },
   {
     "package": "kwb.pkgstatus",
@@ -4373,6 +4391,24 @@
     "from": "urbanAnnualRunoff"
   },
   {
+    "package": "kwb.utils",
+    "url": "https://github.com/kwb-r/kwb.utils",
+    "via": ["wasserportal", "kwb.datetime"],
+    "from": "wasserportal"
+  },
+  {
+    "package": "kwb.utils",
+    "url": "https://github.com/kwb-r/kwb.utils",
+    "via": ["wasserportal", "kwb.pkgbuild"],
+    "from": "wasserportal"
+  },
+  {
+    "package": "kwb.utils",
+    "url": "https://github.com/kwb-r/kwb.utils",
+    "via": ["wasserportal"],
+    "from": "wasserportal"
+  },
+  {
     "package": "kwb.vs2dh",
     "url": "https://github.com/kwb-r/kwb.vs2dh",
     "via": ["kwb.demeau"],
@@ -4836,6 +4872,12 @@
     "from": "pkgmeta"
   },
   {
+    "package": "rorcid",
+    "url": "https://github.com/ropensci/rorcid",
+    "via": ["wasserportal", "kwb.pkgbuild", "kwb.orcid"],
+    "from": "wasserportal"
+  },
+  {
     "package": "sema.berlin.utils",
     "url": "https://github.com/kwb-r/sema.berlin.utils",
     "via": ["dwc.wells"],
@@ -4868,6 +4910,13 @@
     "via": ["pkgmeta", "kwb.pkgstatus", "kwb.pkgbuild"],
     "branch": "f2dd9a3640b0cd8266b0a813c8eaf6bf3775c83d",
     "from": "pkgmeta"
+  },
+  {
+    "package": "travis",
+    "url": "https://github.com/ropenscilabs/travis",
+    "via": ["wasserportal", "kwb.pkgbuild"],
+    "branch": "f2dd9a3640b0cd8266b0a813c8eaf6bf3775c83d",
+    "from": "wasserportal"
   },
   {
     "package": "wordcloud2",
