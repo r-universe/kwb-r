@@ -70,6 +70,13 @@
     "from": "kwb.monitoring"
   },
   {
+    "package": "RODBC",
+    "url": "https://github.com/cran/RODBC",
+    "via": ["kwb.odm", "kwb.db"],
+    "branch": "1.3-16",
+    "from": "kwb.odm"
+  },
+  {
     "package": "aws.s3",
     "url": "https://github.com/cloudyr/aws.s3",
     "via": ["fhpredict"],
@@ -326,6 +333,18 @@
     "from": "kwb.monitoring"
   },
   {
+    "package": "kwb.datetime",
+    "url": "https://github.com/kwb-r/kwb.datetime",
+    "via": ["kwb.odm"],
+    "from": "kwb.odm"
+  },
+  {
+    "package": "kwb.datetime",
+    "url": "https://github.com/kwb-r/kwb.datetime",
+    "via": ["kwb.odm", "kwb.db"],
+    "from": "kwb.odm"
+  },
+  {
     "package": "kwb.db",
     "url": "https://github.com/kwb-r/kwb.db",
     "via": ["dwc.wells"],
@@ -380,6 +399,12 @@
     "url": "https://github.com/kwb-r/kwb.db",
     "via": ["kwb.monitoring", "kwb.base"],
     "from": "kwb.monitoring"
+  },
+  {
+    "package": "kwb.db",
+    "url": "https://github.com/kwb-r/kwb.db",
+    "via": ["kwb.odm"],
+    "from": "kwb.odm"
   },
   {
     "package": "kwb.dwd",
@@ -1528,6 +1553,30 @@
     "from": "kwb.nextcloud"
   },
   {
+    "package": "kwb.utils",
+    "url": "https://github.com/kwb-r/kwb.utils",
+    "via": ["kwb.odm", "kwb.datetime"],
+    "from": "kwb.odm"
+  },
+  {
+    "package": "kwb.utils",
+    "url": "https://github.com/kwb-r/kwb.utils",
+    "via": ["kwb.odm", "kwb.db", "kwb.datetime"],
+    "from": "kwb.odm"
+  },
+  {
+    "package": "kwb.utils",
+    "url": "https://github.com/kwb-r/kwb.utils",
+    "via": ["kwb.odm", "kwb.db"],
+    "from": "kwb.odm"
+  },
+  {
+    "package": "kwb.utils",
+    "url": "https://github.com/kwb-r/kwb.utils",
+    "via": ["kwb.odm"],
+    "from": "kwb.odm"
+  },
+  {
     "package": "kwb.vs2dh",
     "url": "https://github.com/kwb-r/kwb.vs2dh",
     "via": ["kwb.demeau"],
@@ -1602,6 +1651,13 @@
     "via": ["kwb.monitoring", "kwb.base", "kwb.db"],
     "branch": "r3.0.0",
     "from": "kwb.monitoring"
+  },
+  {
+    "package": "odbc32",
+    "url": "https://github.com/hsonne/odbc32",
+    "via": ["kwb.odm", "kwb.db"],
+    "branch": "r3.0.0",
+    "from": "kwb.odm"
   },
   {
     "package": "pathlist",
@@ -1680,6 +1736,12 @@
     "url": "https://github.com/vh-d/r2r",
     "via": ["kwb.monitoring", "kwb.base", "kwb.db", "odbc32"],
     "from": "kwb.monitoring"
+  },
+  {
+    "package": "r2r",
+    "url": "https://github.com/vh-d/r2r",
+    "via": ["kwb.odm", "kwb.db", "odbc32"],
+    "from": "kwb.odm"
   },
   {
     "package": "sema.berlin.utils",
