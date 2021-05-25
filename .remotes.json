@@ -890,6 +890,12 @@
     "from": "kwb.qmra"
   },
   {
+    "package": "kwb.datetime",
+    "url": "https://github.com/kwb-r/kwb.datetime",
+    "via": ["kwb.quantum"],
+    "from": "kwb.quantum"
+  },
+  {
     "package": "kwb.db",
     "url": "https://github.com/kwb-r/kwb.db",
     "via": ["dwc.wells"],
@@ -3672,6 +3678,18 @@
     "url": "https://github.com/kwb-r/kwb.utils",
     "via": ["kwb.qmra", "qmra.db"],
     "from": "kwb.qmra"
+  },
+  {
+    "package": "kwb.utils",
+    "url": "https://github.com/kwb-r/kwb.utils",
+    "via": ["kwb.quantum", "kwb.datetime"],
+    "from": "kwb.quantum"
+  },
+  {
+    "package": "kwb.utils",
+    "url": "https://github.com/kwb-r/kwb.utils",
+    "via": ["kwb.quantum"],
+    "from": "kwb.quantum"
   },
   {
     "package": "kwb.vs2dh",
