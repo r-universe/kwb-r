@@ -168,6 +168,13 @@
     "from": "kwb.pubs"
   },
   {
+    "package": "RODBC",
+    "url": "https://github.com/cran/RODBC",
+    "via": ["kwb.qmra", "qmra.db", "kwb.db"],
+    "branch": "1.3-16",
+    "from": "kwb.qmra"
+  },
+  {
     "package": "aws.s3",
     "url": "https://github.com/cloudyr/aws.s3",
     "via": ["fhpredict"],
@@ -877,6 +884,12 @@
     "from": "kwb.pubs"
   },
   {
+    "package": "kwb.datetime",
+    "url": "https://github.com/kwb-r/kwb.datetime",
+    "via": ["kwb.qmra", "qmra.db", "kwb.db"],
+    "from": "kwb.qmra"
+  },
+  {
     "package": "kwb.db",
     "url": "https://github.com/kwb-r/kwb.db",
     "via": ["dwc.wells"],
@@ -1015,6 +1028,12 @@
     "url": "https://github.com/kwb-r/kwb.db",
     "via": ["kwb.pubs", "kwb.endnote", "kwb.read"],
     "from": "kwb.pubs"
+  },
+  {
+    "package": "kwb.db",
+    "url": "https://github.com/kwb-r/kwb.db",
+    "via": ["kwb.qmra", "qmra.db"],
+    "from": "kwb.qmra"
   },
   {
     "package": "kwb.dwd",
@@ -3630,6 +3649,31 @@
     "from": "kwb.pubs"
   },
   {
+    "package": "kwb.utils",
+    "url": "https://github.com/kwb-r/kwb.utils",
+    "via": ["kwb.qmra"],
+    "branch": "v0.7.0",
+    "from": "kwb.qmra"
+  },
+  {
+    "package": "kwb.utils",
+    "url": "https://github.com/kwb-r/kwb.utils",
+    "via": ["kwb.qmra", "qmra.db", "kwb.db", "kwb.datetime"],
+    "from": "kwb.qmra"
+  },
+  {
+    "package": "kwb.utils",
+    "url": "https://github.com/kwb-r/kwb.utils",
+    "via": ["kwb.qmra", "qmra.db", "kwb.db"],
+    "from": "kwb.qmra"
+  },
+  {
+    "package": "kwb.utils",
+    "url": "https://github.com/kwb-r/kwb.utils",
+    "via": ["kwb.qmra", "qmra.db"],
+    "from": "kwb.qmra"
+  },
+  {
     "package": "kwb.vs2dh",
     "url": "https://github.com/kwb-r/kwb.vs2dh",
     "via": ["kwb.demeau"],
@@ -3804,6 +3848,13 @@
     "from": "kwb.pubs"
   },
   {
+    "package": "odbc32",
+    "url": "https://github.com/hsonne/odbc32",
+    "via": ["kwb.qmra", "qmra.db", "kwb.db"],
+    "branch": "r3.0.0",
+    "from": "kwb.qmra"
+  },
+  {
     "package": "pathlist",
     "url": "https://github.com/hsonne/pathlist",
     "via": ["fakin.path.app"],
@@ -3838,6 +3889,13 @@
     "url": "https://github.com/hsonne/pathlist",
     "via": ["kwb.pubs", "kwb.endnote", "kwb.read", "kwb.fakin"],
     "from": "kwb.pubs"
+  },
+  {
+    "package": "qmra.db",
+    "url": "https://github.com/kwb-r/qmra.db",
+    "via": ["kwb.qmra"],
+    "branch": "v0.10.0",
+    "from": "kwb.qmra"
   },
   {
     "package": "r2r",
@@ -3982,6 +4040,12 @@
     "url": "https://github.com/vh-d/r2r",
     "via": ["kwb.pubs", "kwb.endnote", "kwb.read", "kwb.db", "odbc32"],
     "from": "kwb.pubs"
+  },
+  {
+    "package": "r2r",
+    "url": "https://github.com/vh-d/r2r",
+    "via": ["kwb.qmra", "qmra.db", "kwb.db", "odbc32"],
+    "from": "kwb.qmra"
   },
   {
     "package": "rorcid",
