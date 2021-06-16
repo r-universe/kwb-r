@@ -381,6 +381,12 @@
 	url = https://github.com/ropensci/rorcid
 	shallow = true
 	registered = false
+[submodule "swmmr"]
+	path = swmmr
+	url = https://github.com/hsonne/swmmr
+	shallow = true
+	branch = mydev
+	registered = false
 [submodule "travis"]
 	path = travis
 	url = https://github.com/ropenscilabs/travis

@@ -995,6 +995,18 @@
     "from": "kwb.resilience"
   },
   {
+    "package": "kwb.datetime",
+    "url": "https://github.com/kwb-r/kwb.datetime",
+    "via": ["kwb.swmm", "kwb.event"],
+    "from": "kwb.swmm"
+  },
+  {
+    "package": "kwb.datetime",
+    "url": "https://github.com/kwb-r/kwb.datetime",
+    "via": ["kwb.swmm", "kwb.event", "kwb.plot"],
+    "from": "kwb.swmm"
+  },
+  {
     "package": "kwb.db",
     "url": "https://github.com/kwb-r/kwb.db",
     "via": ["dwc.wells"],
@@ -1311,6 +1323,12 @@
     "from": "kwb.resilience"
   },
   {
+    "package": "kwb.event",
+    "url": "https://github.com/kwb-r/kwb.event",
+    "via": ["kwb.swmm"],
+    "from": "kwb.swmm"
+  },
+  {
     "package": "kwb.fakin",
     "url": "https://github.com/kwb-r/kwb.fakin",
     "via": ["kwb.endnote", "kwb.read"],
@@ -1575,6 +1593,12 @@
     "from": "kwb.svn"
   },
   {
+    "package": "kwb.file",
+    "url": "https://github.com/kwb-r/kwb.file",
+    "via": ["kwb.swmm", "kwb.nextcloud"],
+    "from": "kwb.swmm"
+  },
+  {
     "package": "kwb.flusshygiene",
     "url": "https://github.com/kwb-r/kwb.flusshygiene",
     "via": ["fhpredict"],
@@ -1654,6 +1678,12 @@
     "url": "https://github.com/kwb-r/kwb.nextcloud",
     "via": ["kwb.infoworks"],
     "from": "kwb.infoworks"
+  },
+  {
+    "package": "kwb.nextcloud",
+    "url": "https://github.com/kwb-r/kwb.nextcloud",
+    "via": ["kwb.swmm"],
+    "from": "kwb.swmm"
   },
   {
     "package": "kwb.odm",
@@ -1964,10 +1994,22 @@
     "from": "kwb.resilience"
   },
   {
+    "package": "kwb.plot",
+    "url": "https://github.com/kwb-r/kwb.plot",
+    "via": ["kwb.swmm", "kwb.event"],
+    "from": "kwb.swmm"
+  },
+  {
     "package": "kwb.python",
     "url": "https://github.com/kwb-r/kwb.python",
     "via": ["dwc.ar4gw"],
     "from": "dwc.ar4gw"
+  },
+  {
+    "package": "kwb.python",
+    "url": "https://github.com/kwb-r/kwb.python",
+    "via": ["kwb.swmm"],
+    "from": "kwb.swmm"
   },
   {
     "package": "kwb.quantum",
@@ -4152,6 +4194,49 @@
     "from": "kwb.svn"
   },
   {
+    "package": "kwb.utils",
+    "url": "https://github.com/kwb-r/kwb.utils",
+    "via": ["kwb.swmm", "kwb.event"],
+    "from": "kwb.swmm"
+  },
+  {
+    "package": "kwb.utils",
+    "url": "https://github.com/kwb-r/kwb.utils",
+    "via": ["kwb.swmm", "kwb.event", "kwb.datetime"],
+    "from": "kwb.swmm"
+  },
+  {
+    "package": "kwb.utils",
+    "url": "https://github.com/kwb-r/kwb.utils",
+    "via": ["kwb.swmm", "kwb.event", "kwb.plot"],
+    "from": "kwb.swmm"
+  },
+  {
+    "package": "kwb.utils",
+    "url": "https://github.com/kwb-r/kwb.utils",
+    "via": ["kwb.swmm", "kwb.event", "kwb.plot", "kwb.datetime"],
+    "from": "kwb.swmm"
+  },
+  {
+    "package": "kwb.utils",
+    "url": "https://github.com/kwb-r/kwb.utils",
+    "via": ["kwb.swmm", "kwb.nextcloud", "kwb.file"],
+    "branch": "v0.6.0",
+    "from": "kwb.swmm"
+  },
+  {
+    "package": "kwb.utils",
+    "url": "https://github.com/kwb-r/kwb.utils",
+    "via": ["kwb.swmm", "kwb.nextcloud"],
+    "from": "kwb.swmm"
+  },
+  {
+    "package": "kwb.utils",
+    "url": "https://github.com/kwb-r/kwb.utils",
+    "via": ["kwb.swmm"],
+    "from": "kwb.swmm"
+  },
+  {
     "package": "kwb.vs2dh",
     "url": "https://github.com/kwb-r/kwb.vs2dh",
     "via": ["kwb.demeau"],
@@ -4580,6 +4665,13 @@
     "url": "https://github.com/kwb-r/sema.berlin.utils",
     "via": ["dwc.wells"],
     "from": "dwc.wells"
+  },
+  {
+    "package": "swmmr",
+    "url": "https://github.com/hsonne/swmmr",
+    "via": ["kwb.swmm"],
+    "branch": "mydev",
+    "from": "kwb.swmm"
   },
   {
     "package": "travis",
