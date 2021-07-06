@@ -1313,6 +1313,12 @@
     "from": "kwb.pkgbuild"
   },
   {
+    "package": "kwb.orcid",
+    "url": "https://github.com/kwb-r/kwb.orcid",
+    "via": ["kwb.pkgstatus", "kwb.pkgbuild"],
+    "from": "kwb.pkgstatus"
+  },
+  {
     "package": "kwb.pathdict",
     "url": "https://github.com/kwb-r/kwb.pathdict",
     "via": ["kwb.endnote", "kwb.read", "kwb.fakin"],
@@ -1339,6 +1345,13 @@
     "via": ["kwb.ogre.model", "kwb.ogre", "kwb.read", "kwb.fakin"],
     "branch": "v0.1.0",
     "from": "kwb.ogre.model"
+  },
+  {
+    "package": "kwb.pkgbuild",
+    "url": "https://github.com/kwb-r/kwb.pkgbuild",
+    "via": ["kwb.pkgstatus"],
+    "branch": "v0.1.7",
+    "from": "kwb.pkgstatus"
   },
   {
     "package": "kwb.plot",
@@ -3203,6 +3216,12 @@
     "from": "kwb.pkgbuild"
   },
   {
+    "package": "kwb.utils",
+    "url": "https://github.com/kwb-r/kwb.utils",
+    "via": ["kwb.pkgstatus", "kwb.pkgbuild"],
+    "from": "kwb.pkgstatus"
+  },
+  {
     "package": "kwb.vs2dh",
     "url": "https://github.com/kwb-r/kwb.vs2dh",
     "via": ["kwb.demeau"],
@@ -3537,6 +3556,12 @@
     "from": "kwb.pkgbuild"
   },
   {
+    "package": "rorcid",
+    "url": "https://github.com/ropensci/rorcid",
+    "via": ["kwb.pkgstatus", "kwb.pkgbuild", "kwb.orcid"],
+    "from": "kwb.pkgstatus"
+  },
+  {
     "package": "sema.berlin.utils",
     "url": "https://github.com/kwb-r/sema.berlin.utils",
     "via": ["dwc.wells"],
@@ -3548,5 +3573,12 @@
     "via": ["kwb.pkgbuild"],
     "branch": "f2dd9a3640b0cd8266b0a813c8eaf6bf3775c83d",
     "from": "kwb.pkgbuild"
+  },
+  {
+    "package": "travis",
+    "url": "https://github.com/ropenscilabs/travis",
+    "via": ["kwb.pkgstatus", "kwb.pkgbuild"],
+    "branch": "f2dd9a3640b0cd8266b0a813c8eaf6bf3775c83d",
+    "from": "kwb.pkgstatus"
   }
 ]
