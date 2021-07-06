@@ -1,5 +1,345 @@
 [submodule ".registry"]
 	path = .registry
-	url = https://github.com/r-universe-org/cran-to-git
+	url = https://github.com/kwb-r/universe
 	shallow = true
 	branch = HEAD
+[submodule "algoliar"]
+	path = algoliar
+	url = https://github.com/KWB-R/algoliar
+	shallow = true
+	registered = true
+[submodule "aquanes.report"]
+	path = aquanes.report
+	url = https://github.com/KWB-R/aquanes.report
+	shallow = true
+	registered = true
+[submodule "dwc.ar4gw"]
+	path = dwc.ar4gw
+	url = https://github.com/KWB-R/dwc.ar4gw
+	shallow = true
+	registered = true
+[submodule "dwc.wells"]
+	path = dwc.wells
+	url = https://github.com/KWB-R/dwc.wells
+	shallow = true
+	registered = true
+[submodule "fakin.path.app"]
+	path = fakin.path.app
+	url = https://github.com/KWB-R/fakin.path.app
+	shallow = true
+	registered = true
+[submodule "fhpredict"]
+	path = fhpredict
+	url = https://github.com/KWB-R/fhpredict
+	shallow = true
+	registered = true
+[submodule "ibathwater"]
+	path = ibathwater
+	url = https://github.com/KWB-R/ibathwater
+	shallow = true
+	registered = true
+[submodule "kwb.abimo"]
+	path = kwb.abimo
+	url = https://github.com/KWB-R/kwb.abimo
+	shallow = true
+	registered = true
+[submodule "kwb.base"]
+	path = kwb.base
+	url = https://github.com/KWB-R/kwb.base
+	shallow = true
+	registered = true
+[submodule "kwb.budget"]
+	path = kwb.budget
+	url = https://github.com/KWB-R/kwb.budget
+	shallow = true
+	registered = true
+[submodule "kwb.code"]
+	path = kwb.code
+	url = https://github.com/KWB-R/kwb.code
+	shallow = true
+	registered = true
+[submodule "kwb.datetime"]
+	path = kwb.datetime
+	url = https://github.com/KWB-R/kwb.datetime
+	shallow = true
+	registered = true
+[submodule "kwb.db"]
+	path = kwb.db
+	url = https://github.com/KWB-R/kwb.db
+	shallow = true
+	registered = true
+[submodule "kwb.default"]
+	path = kwb.default
+	url = https://github.com/KWB-R/kwb.default
+	shallow = true
+	registered = true
+[submodule "kwb.demeau"]
+	path = kwb.demeau
+	url = https://github.com/KWB-R/kwb.demeau
+	shallow = true
+	registered = true
+[submodule "kwb.dwa.m150"]
+	path = kwb.dwa.m150
+	url = https://github.com/KWB-R/kwb.dwa.m150
+	shallow = true
+	registered = true
+[submodule "kwb.dwd"]
+	path = kwb.dwd
+	url = https://github.com/KWB-R/kwb.dwd
+	shallow = true
+	registered = true
+[submodule "kwb.en13508.2"]
+	path = kwb.en13508.2
+	url = https://github.com/KWB-R/kwb.en13508.2
+	shallow = true
+	registered = true
+[submodule "kwb.endnote"]
+	path = kwb.endnote
+	url = https://github.com/KWB-R/kwb.endnote
+	shallow = true
+	registered = true
+[submodule "kwb.event"]
+	path = kwb.event
+	url = https://github.com/KWB-R/kwb.event
+	shallow = true
+	registered = true
+[submodule "kwb.fakin"]
+	path = kwb.fakin
+	url = https://github.com/KWB-R/kwb.fakin
+	shallow = true
+	registered = true
+[submodule "kwb.file"]
+	path = kwb.file
+	url = https://github.com/KWB-R/kwb.file
+	shallow = true
+	registered = true
+[submodule "kwb.flusshygiene"]
+	path = kwb.flusshygiene
+	url = https://github.com/KWB-R/kwb.flusshygiene
+	shallow = true
+	registered = true
+[submodule "kwb.flusshygiene.app"]
+	path = kwb.flusshygiene.app
+	url = https://github.com/KWB-R/kwb.flusshygiene.app
+	shallow = true
+	registered = true
+[submodule "kwb.geosalz"]
+	path = kwb.geosalz
+	url = https://github.com/KWB-R/kwb.geosalz
+	shallow = true
+	registered = true
+[submodule "kwb.hantush"]
+	path = kwb.hantush
+	url = https://github.com/KWB-R/kwb.hantush
+	shallow = true
+	registered = true
+[submodule "kwb.heatsine"]
+	path = kwb.heatsine
+	url = https://github.com/KWB-R/kwb.heatsine
+	shallow = true
+	registered = true
+[submodule "kwb.heatsine.opencpu"]
+	path = kwb.heatsine.opencpu
+	url = https://github.com/KWB-R/kwb.heatsine.opencpu
+	shallow = true
+	registered = true
+[submodule "kwb.infoworks"]
+	path = kwb.infoworks
+	url = https://github.com/KWB-R/kwb.infoworks
+	shallow = true
+	registered = true
+[submodule "kwb.kuras.db"]
+	path = kwb.kuras.db
+	url = https://github.com/KWB-R/kwb.kuras.db
+	shallow = true
+	registered = true
+[submodule "kwb.lca"]
+	path = kwb.lca
+	url = https://github.com/KWB-R/kwb.lca
+	shallow = true
+	registered = true
+[submodule "kwb.logger"]
+	path = kwb.logger
+	url = https://github.com/KWB-R/kwb.logger
+	shallow = true
+	registered = true
+[submodule "kwb.matomo"]
+	path = kwb.matomo
+	url = https://github.com/KWB-R/kwb.matomo
+	shallow = true
+	registered = true
+[submodule "kwb.ml"]
+	path = kwb.ml
+	url = https://github.com/KWB-R/kwb.ml
+	shallow = true
+	registered = true
+[submodule "kwb.monitoring"]
+	path = kwb.monitoring
+	url = https://github.com/KWB-R/kwb.monitoring
+	shallow = true
+	registered = true
+[submodule "kwb.nextcloud"]
+	path = kwb.nextcloud
+	url = https://github.com/KWB-R/kwb.nextcloud
+	shallow = true
+	registered = true
+[submodule "kwb.odm"]
+	path = kwb.odm
+	url = https://github.com/KWB-R/kwb.odm
+	shallow = true
+	registered = true
+[submodule "kwb.ogre"]
+	path = kwb.ogre
+	url = https://github.com/KWB-R/kwb.ogre
+	shallow = true
+	registered = true
+[submodule "kwb.ogre.model"]
+	path = kwb.ogre.model
+	url = https://github.com/KWB-R/kwb.ogre.model
+	shallow = true
+	registered = true
+[submodule "kwb.orcid"]
+	path = kwb.orcid
+	url = https://github.com/KWB-R/kwb.orcid
+	shallow = true
+	registered = true
+[submodule "kwb.pathdict"]
+	path = kwb.pathdict
+	url = https://github.com/KWB-R/kwb.pathdict
+	shallow = true
+	registered = true
+[submodule "kwb.pilot"]
+	path = kwb.pilot
+	url = https://github.com/KWB-R/kwb.pilot
+	shallow = true
+	registered = true
+[submodule "kwb.pkgbuild"]
+	path = kwb.pkgbuild
+	url = https://github.com/KWB-R/kwb.pkgbuild
+	shallow = true
+	registered = true
+[submodule "kwb.pkgstatus"]
+	path = kwb.pkgstatus
+	url = https://github.com/KWB-R/kwb.pkgstatus
+	shallow = true
+	registered = true
+[submodule "kwb.plot"]
+	path = kwb.plot
+	url = https://github.com/KWB-R/kwb.plot
+	shallow = true
+	registered = true
+[submodule "kwb.prep"]
+	path = kwb.prep
+	url = https://github.com/KWB-R/kwb.prep
+	shallow = true
+	registered = true
+[submodule "kwb.pubs"]
+	path = kwb.pubs
+	url = https://github.com/KWB-R/kwb.pubs
+	shallow = true
+	registered = true
+[submodule "kwb.python"]
+	path = kwb.python
+	url = https://github.com/KWB-R/kwb.python
+	shallow = true
+	registered = true
+[submodule "kwb.qmra"]
+	path = kwb.qmra
+	url = https://github.com/KWB-R/kwb.qmra
+	shallow = true
+	registered = true
+[submodule "kwb.quantum"]
+	path = kwb.quantum
+	url = https://github.com/KWB-R/kwb.quantum
+	shallow = true
+	registered = true
+[submodule "kwb.read"]
+	path = kwb.read
+	url = https://github.com/KWB-R/kwb.read
+	shallow = true
+	registered = true
+[submodule "kwb.readxl"]
+	path = kwb.readxl
+	url = https://github.com/KWB-R/kwb.readxl
+	shallow = true
+	registered = true
+[submodule "kwb.resilience"]
+	path = kwb.resilience
+	url = https://github.com/KWB-R/kwb.resilience
+	shallow = true
+	registered = true
+[submodule "kwb.satellite"]
+	path = kwb.satellite
+	url = https://github.com/KWB-R/kwb.satellite
+	shallow = true
+	registered = true
+[submodule "kwb.site"]
+	path = kwb.site
+	url = https://github.com/KWB-R/kwb.site
+	shallow = true
+	registered = true
+[submodule "kwb.svn"]
+	path = kwb.svn
+	url = https://github.com/KWB-R/kwb.svn
+	shallow = true
+	registered = true
+[submodule "kwb.swmm"]
+	path = kwb.swmm
+	url = https://github.com/KWB-R/kwb.swmm
+	shallow = true
+	registered = true
+[submodule "kwb.test"]
+	path = kwb.test
+	url = https://github.com/KWB-R/kwb.test
+	shallow = true
+	registered = true
+[submodule "kwb.umberto"]
+	path = kwb.umberto
+	url = https://github.com/KWB-R/kwb.umberto
+	shallow = true
+	registered = true
+[submodule "kwb.utils"]
+	path = kwb.utils
+	url = https://github.com/KWB-R/kwb.utils
+	shallow = true
+	registered = true
+[submodule "kwb.vs2dh"]
+	path = kwb.vs2dh
+	url = https://github.com/KWB-R/kwb.vs2dh
+	shallow = true
+	registered = true
+[submodule "kwb.wtaq"]
+	path = kwb.wtaq
+	url = https://github.com/KWB-R/kwb.wtaq
+	shallow = true
+	registered = true
+[submodule "pkgmeta"]
+	path = pkgmeta
+	url = https://github.com/KWB-R/pkgmeta
+	shallow = true
+	registered = true
+[submodule "qmra.db"]
+	path = qmra.db
+	url = https://github.com/KWB-R/qmra.db
+	shallow = true
+	registered = true
+[submodule "r2q"]
+	path = r2q
+	url = https://github.com/KWB-R/r2q
+	shallow = true
+	registered = true
+[submodule "sema.berlin.utils"]
+	path = sema.berlin.utils
+	url = https://github.com/KWB-R/sema.berlin.utils
+	shallow = true
+	registered = true
+[submodule "urbanAnnualRunoff"]
+	path = urbanAnnualRunoff
+	url = https://github.com/KWB-R/urbanAnnualRunoff
+	shallow = true
+	registered = true
+[submodule "wasserportal"]
+	path = wasserportal
+	url = https://github.com/KWB-R/wasserportal
+	shallow = true
+	registered = true
