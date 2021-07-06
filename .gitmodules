@@ -360,6 +360,12 @@
 	url = https://github.com/rstudio/blogdown
 	shallow = true
 	registered = false
+[submodule "codemetar"]
+	path = codemetar
+	url = https://github.com/ropensci/codemetar
+	shallow = true
+	branch = v0.3.0
+	registered = false
 [submodule "odbc32"]
 	path = odbc32
 	url = https://github.com/hsonne/odbc32
@@ -370,6 +376,12 @@
 	path = pathlist
 	url = https://github.com/hsonne/pathlist
 	shallow = true
+	registered = false
+[submodule "pkgnet"]
+	path = pkgnet
+	url = https://github.com/UptakeOpenSource/pkgnet
+	shallow = true
+	branch = d1e974de299d46e71b082e027a71b8b254edc9b2
 	registered = false
 [submodule "r2r"]
 	path = r2r
@@ -392,4 +404,9 @@
 	url = https://github.com/ropenscilabs/travis
 	shallow = true
 	branch = f2dd9a3640b0cd8266b0a813c8eaf6bf3775c83d
+	registered = false
+[submodule "wordcloud2"]
+	path = wordcloud2
+	url = https://github.com/Lchiffon/wordcloud2
+	shallow = true
 	registered = false
