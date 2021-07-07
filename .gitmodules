@@ -38,6 +38,11 @@
 	url = https://github.com/KWB-R/ibathwater
 	shallow = true
 	registered = true
+[submodule "keys.lid"]
+	path = keys.lid
+	url = https://github.com/KWB-R/keys.lid
+	shallow = true
+	registered = true
 [submodule "kwb.abimo"]
 	path = kwb.abimo
 	url = https://github.com/KWB-R/kwb.abimo
