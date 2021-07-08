@@ -48,6 +48,11 @@
 	url = https://github.com/KWB-R/kwb.abimo
 	shallow = true
 	registered = true
+[submodule "kwb.barplot"]
+	path = kwb.barplot
+	url = https://github.com/KWB-R/kwb.barplot
+	shallow = true
+	registered = true
 [submodule "kwb.base"]
 	path = kwb.base
 	url = https://github.com/KWB-R/kwb.base
@@ -96,6 +101,11 @@
 [submodule "kwb.dwd"]
 	path = kwb.dwd
 	url = https://github.com/KWB-R/kwb.dwd
+	shallow = true
+	registered = true
+[submodule "kwb.dygraph"]
+	path = kwb.dygraph
+	url = https://github.com/KWB-R/kwb.dygraph
 	shallow = true
 	registered = true
 [submodule "kwb.en13508.2"]
@@ -301,6 +311,11 @@
 [submodule "kwb.test"]
 	path = kwb.test
 	url = https://github.com/KWB-R/kwb.test
+	shallow = true
+	registered = true
+[submodule "kwb.ucode"]
+	path = kwb.ucode
+	url = https://github.com/KWB-R/kwb.ucode
 	shallow = true
 	registered = true
 [submodule "kwb.umberto"]
