@@ -63,6 +63,11 @@
 	url = https://github.com/KWB-R/kwb.code
 	shallow = true
 	registered = true
+[submodule "kwb.context"]
+	path = kwb.context
+	url = https://github.com/KWB-R/kwb.context
+	shallow = true
+	registered = true
 [submodule "kwb.datetime"]
 	path = kwb.datetime
 	url = https://github.com/KWB-R/kwb.datetime

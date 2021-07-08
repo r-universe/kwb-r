@@ -36,6 +36,9 @@
     "package": "kwb.code"
   },
   {
+    "package": "kwb.context"
+  },
+  {
     "package": "kwb.datetime"
   },
   {
