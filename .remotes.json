@@ -1240,6 +1240,12 @@
     "from": "qmra.db"
   },
   {
+    "package": "kwb.default",
+    "url": "https://github.com/kwb-r/kwb.default",
+    "via": ["kwb.context"],
+    "from": "kwb.context"
+  },
+  {
     "package": "kwb.dwd",
     "url": "https://github.com/kwb-r/kwb.dwd",
     "via": ["fhpredict"],
@@ -2490,6 +2496,12 @@
     "via": ["kwb.code", "kwb.file"],
     "branch": "v0.6.0",
     "from": "kwb.code"
+  },
+  {
+    "package": "kwb.utils",
+    "url": "https://github.com/kwb-r/kwb.utils",
+    "via": ["kwb.context"],
+    "from": "kwb.context"
   },
   {
     "package": "kwb.utils",
