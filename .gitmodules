@@ -313,6 +313,11 @@
 	url = https://github.com/KWB-R/kwb.test
 	shallow = true
 	registered = true
+[submodule "kwb.twitter"]
+	path = kwb.twitter
+	url = https://github.com/KWB-R/kwb.twitter
+	shallow = true
+	registered = true
 [submodule "kwb.ucode"]
 	path = kwb.ucode
 	url = https://github.com/KWB-R/kwb.ucode

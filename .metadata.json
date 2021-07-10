@@ -187,6 +187,9 @@
     "package": "kwb.test"
   },
   {
+    "package": "kwb.twitter"
+  },
+  {
     "package": "kwb.ucode"
   },
   {
