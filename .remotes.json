@@ -2896,6 +2896,12 @@
   {
     "package": "kwb.utils",
     "url": "https://github.com/kwb-r/kwb.utils",
+    "via": ["kwb.iview"],
+    "from": "kwb.iview"
+  },
+  {
+    "package": "kwb.utils",
+    "url": "https://github.com/kwb-r/kwb.utils",
     "via": ["kwb.kuras.db", "kwb.db", "kwb.datetime"],
     "from": "kwb.kuras.db"
   },
