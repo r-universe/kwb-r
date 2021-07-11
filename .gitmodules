@@ -168,6 +168,11 @@
 	url = https://github.com/KWB-R/kwb.infoworks
 	shallow = true
 	registered = true
+[submodule "kwb.iview"]
+	path = kwb.iview
+	url = https://github.com/KWB-R/kwb.iview
+	shallow = true
+	registered = true
 [submodule "kwb.kuras.db"]
 	path = kwb.kuras.db
 	url = https://github.com/KWB-R/kwb.kuras.db

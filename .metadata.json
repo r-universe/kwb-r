@@ -100,6 +100,9 @@
     "package": "kwb.infoworks"
   },
   {
+    "package": "kwb.iview"
+  },
+  {
     "package": "kwb.kuras.db"
   },
   {
