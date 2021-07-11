@@ -213,6 +213,11 @@
 	url = https://github.com/KWB-R/kwb.odm
 	shallow = true
 	registered = true
+[submodule "kwb.odmx"]
+	path = kwb.odmx
+	url = https://github.com/KWB-R/kwb.odmx
+	shallow = true
+	registered = true
 [submodule "kwb.ogre"]
 	path = kwb.ogre
 	url = https://github.com/KWB-R/kwb.ogre

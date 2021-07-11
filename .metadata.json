@@ -127,6 +127,9 @@
     "package": "kwb.odm"
   },
   {
+    "package": "kwb.odmx"
+  },
+  {
     "package": "kwb.ogre"
   },
   {
