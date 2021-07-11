@@ -338,6 +338,11 @@
 	url = https://github.com/KWB-R/kwb.utils
 	shallow = true
 	registered = true
+[submodule "kwb.virtualdub"]
+	path = kwb.virtualdub
+	url = https://github.com/KWB-R/kwb.virtualdub
+	shallow = true
+	registered = true
 [submodule "kwb.vs2dh"]
 	path = kwb.vs2dh
 	url = https://github.com/KWB-R/kwb.vs2dh

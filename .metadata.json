@@ -202,6 +202,9 @@
     "package": "kwb.utils"
   },
   {
+    "package": "kwb.virtualdub"
+  },
+  {
     "package": "kwb.vs2dh"
   },
   {
