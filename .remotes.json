@@ -4496,6 +4496,12 @@
   {
     "package": "kwb.utils",
     "url": "https://github.com/kwb-r/kwb.utils",
+    "via": ["kwb.virtualdub"],
+    "from": "kwb.virtualdub"
+  },
+  {
+    "package": "kwb.utils",
+    "url": "https://github.com/kwb-r/kwb.utils",
     "via": ["kwb.vs2dh"],
     "from": "kwb.vs2dh"
   },
