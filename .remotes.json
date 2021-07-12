@@ -1932,7 +1932,6 @@
     "package": "kwb.pkgbuild",
     "url": "https://github.com/kwb-r/kwb.pkgbuild",
     "via": ["kwb.pkgstatus"],
-    "branch": "v0.1.7",
     "from": "kwb.pkgstatus"
   },
   {
