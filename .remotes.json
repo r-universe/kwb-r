@@ -486,7 +486,6 @@
     "package": "kwb.datetime",
     "url": "https://github.com/kwb-r/kwb.datetime",
     "via": ["kwb.flusshygiene.app"],
-    "branch": "dev",
     "from": "kwb.flusshygiene.app"
   },
   {
@@ -1306,7 +1305,6 @@
     "package": "kwb.dwd",
     "url": "https://github.com/kwb-r/kwb.dwd",
     "via": ["kwb.flusshygiene.app"],
-    "branch": "dev",
     "from": "kwb.flusshygiene.app"
   },
   {
@@ -2909,7 +2907,6 @@
     "package": "kwb.utils",
     "url": "https://github.com/kwb-r/kwb.utils",
     "via": ["kwb.flusshygiene.app"],
-    "branch": "dev",
     "from": "kwb.flusshygiene.app"
   },
   {
