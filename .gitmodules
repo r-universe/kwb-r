@@ -148,6 +148,11 @@
 	url = https://github.com/KWB-R/kwb.geosalz
 	shallow = true
 	registered = true
+[submodule "kwb.graph"]
+	path = kwb.graph
+	url = https://github.com/KWB-R/kwb.graph
+	shallow = true
+	registered = true
 [submodule "kwb.hantush"]
 	path = kwb.hantush
 	url = https://github.com/KWB-R/kwb.hantush
@@ -376,6 +381,11 @@
 [submodule "sema.berlin.utils"]
 	path = sema.berlin.utils
 	url = https://github.com/KWB-R/sema.berlin.utils
+	shallow = true
+	registered = true
+[submodule "universe"]
+	path = universe
+	url = https://github.com/KWB-R/universe
 	shallow = true
 	registered = true
 [submodule "urbanAnnualRunoff"]

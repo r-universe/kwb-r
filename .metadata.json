@@ -87,6 +87,9 @@
     "package": "kwb.geosalz"
   },
   {
+    "package": "kwb.graph"
+  },
+  {
     "package": "kwb.hantush",
     "oncran": true
   },
@@ -224,6 +227,9 @@
   },
   {
     "package": "sema.berlin.utils"
+  },
+  {
+    "package": "universe"
   },
   {
     "package": "urbanAnnualRunoff"
