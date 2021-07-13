@@ -2917,6 +2917,12 @@
   {
     "package": "kwb.utils",
     "url": "https://github.com/kwb-r/kwb.utils",
+    "via": ["kwb.graph"],
+    "from": "kwb.graph"
+  },
+  {
+    "package": "kwb.utils",
+    "url": "https://github.com/kwb-r/kwb.utils",
     "via": ["kwb.heatsine"],
     "from": "kwb.heatsine"
   },
