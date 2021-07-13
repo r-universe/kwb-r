@@ -383,11 +383,6 @@
 	url = https://github.com/KWB-R/sema.berlin.utils
 	shallow = true
 	registered = true
-[submodule "universe"]
-	path = universe
-	url = https://github.com/KWB-R/universe
-	shallow = true
-	registered = true
 [submodule "urbanAnnualRunoff"]
 	path = urbanAnnualRunoff
 	url = https://github.com/KWB-R/urbanAnnualRunoff
