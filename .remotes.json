@@ -1104,7 +1104,6 @@
     "package": "kwb.db",
     "url": "https://github.com/kwb-r/kwb.db",
     "via": ["dwc.wells"],
-    "branch": "dev",
     "from": "dwc.wells"
   },
   {
