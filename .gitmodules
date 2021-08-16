@@ -405,11 +405,6 @@
 	shallow = true
 	branch = v0.3.12
 	registered = false
-[submodule "blogdown"]
-	path = blogdown
-	url = https://github.com/rstudio/blogdown
-	shallow = true
-	registered = false
 [submodule "codemetar"]
 	path = codemetar
 	url = https://github.com/ropensci/codemetar

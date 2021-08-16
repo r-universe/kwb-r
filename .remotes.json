@@ -224,12 +224,6 @@
     "from": "fhpredict"
   },
   {
-    "package": "blogdown",
-    "url": "https://github.com/rstudio/blogdown",
-    "via": ["kwb.pubs"],
-    "from": "kwb.pubs"
-  },
-  {
     "package": "codemetar",
     "url": "https://github.com/ropensci/codemetar",
     "via": ["pkgmeta"],
@@ -322,6 +316,13 @@
     "package": "kwb.code",
     "url": "https://github.com/kwb-r/kwb.code",
     "via": ["kwb.pubs", "kwb.endnote", "kwb.read", "kwb.fakin"],
+    "branch": "v0.1.0",
+    "from": "kwb.pubs"
+  },
+  {
+    "package": "kwb.code",
+    "url": "https://github.com/kwb-r/kwb.code",
+    "via": ["kwb.pubs", "kwb.fakin"],
     "branch": "v0.1.0",
     "from": "kwb.pubs"
   },
@@ -989,6 +990,12 @@
   {
     "package": "kwb.datetime",
     "url": "https://github.com/kwb-r/kwb.datetime",
+    "via": ["kwb.pubs", "kwb.fakin", "kwb.plot"],
+    "from": "kwb.pubs"
+  },
+  {
+    "package": "kwb.datetime",
+    "url": "https://github.com/kwb-r/kwb.datetime",
     "via": ["kwb.qmra", "qmra.db", "kwb.db"],
     "from": "kwb.qmra"
   },
@@ -1489,6 +1496,12 @@
   {
     "package": "kwb.fakin",
     "url": "https://github.com/kwb-r/kwb.fakin",
+    "via": ["kwb.pubs"],
+    "from": "kwb.pubs"
+  },
+  {
+    "package": "kwb.fakin",
+    "url": "https://github.com/kwb-r/kwb.fakin",
     "via": ["kwb.read"],
     "from": "kwb.read"
   },
@@ -1694,6 +1707,30 @@
     "package": "kwb.file",
     "url": "https://github.com/kwb-r/kwb.file",
     "via": ["kwb.pubs", "kwb.endnote", "kwb.read", "kwb.fakin", "kwb.pathdict"],
+    "from": "kwb.pubs"
+  },
+  {
+    "package": "kwb.file",
+    "url": "https://github.com/kwb-r/kwb.file",
+    "via": ["kwb.pubs", "kwb.fakin", "pathlist"],
+    "from": "kwb.pubs"
+  },
+  {
+    "package": "kwb.file",
+    "url": "https://github.com/kwb-r/kwb.file",
+    "via": ["kwb.pubs", "kwb.fakin", "kwb.code"],
+    "from": "kwb.pubs"
+  },
+  {
+    "package": "kwb.file",
+    "url": "https://github.com/kwb-r/kwb.file",
+    "via": ["kwb.pubs", "kwb.fakin"],
+    "from": "kwb.pubs"
+  },
+  {
+    "package": "kwb.file",
+    "url": "https://github.com/kwb-r/kwb.file",
+    "via": ["kwb.pubs", "kwb.fakin", "kwb.pathdict"],
     "from": "kwb.pubs"
   },
   {
@@ -1917,6 +1954,13 @@
     "package": "kwb.pathdict",
     "url": "https://github.com/kwb-r/kwb.pathdict",
     "via": ["kwb.pubs", "kwb.endnote", "kwb.read", "kwb.fakin"],
+    "branch": "v0.1.0",
+    "from": "kwb.pubs"
+  },
+  {
+    "package": "kwb.pathdict",
+    "url": "https://github.com/kwb-r/kwb.pathdict",
+    "via": ["kwb.pubs", "kwb.fakin"],
     "branch": "v0.1.0",
     "from": "kwb.pubs"
   },
@@ -2154,6 +2198,12 @@
     "package": "kwb.plot",
     "url": "https://github.com/kwb-r/kwb.plot",
     "via": ["kwb.pubs", "kwb.endnote", "kwb.read", "kwb.fakin"],
+    "from": "kwb.pubs"
+  },
+  {
+    "package": "kwb.plot",
+    "url": "https://github.com/kwb-r/kwb.plot",
+    "via": ["kwb.pubs", "kwb.fakin"],
     "from": "kwb.pubs"
   },
   {
@@ -4250,6 +4300,76 @@
   {
     "package": "kwb.utils",
     "url": "https://github.com/kwb-r/kwb.utils",
+    "via": ["kwb.pubs", "kwb.fakin", "pathlist", "kwb.file"],
+    "branch": "v0.6.0",
+    "from": "kwb.pubs"
+  },
+  {
+    "package": "kwb.utils",
+    "url": "https://github.com/kwb-r/kwb.utils",
+    "via": ["kwb.pubs", "kwb.fakin", "pathlist"],
+    "from": "kwb.pubs"
+  },
+  {
+    "package": "kwb.utils",
+    "url": "https://github.com/kwb-r/kwb.utils",
+    "via": ["kwb.pubs", "kwb.fakin", "kwb.code"],
+    "from": "kwb.pubs"
+  },
+  {
+    "package": "kwb.utils",
+    "url": "https://github.com/kwb-r/kwb.utils",
+    "via": ["kwb.pubs", "kwb.fakin", "kwb.code", "kwb.file"],
+    "branch": "v0.6.0",
+    "from": "kwb.pubs"
+  },
+  {
+    "package": "kwb.utils",
+    "url": "https://github.com/kwb-r/kwb.utils",
+    "via": ["kwb.pubs", "kwb.fakin", "kwb.file"],
+    "branch": "v0.6.0",
+    "from": "kwb.pubs"
+  },
+  {
+    "package": "kwb.utils",
+    "url": "https://github.com/kwb-r/kwb.utils",
+    "via": ["kwb.pubs", "kwb.fakin", "kwb.pathdict", "kwb.file"],
+    "branch": "v0.6.0",
+    "from": "kwb.pubs"
+  },
+  {
+    "package": "kwb.utils",
+    "url": "https://github.com/kwb-r/kwb.utils",
+    "via": ["kwb.pubs", "kwb.fakin", "kwb.pathdict"],
+    "from": "kwb.pubs"
+  },
+  {
+    "package": "kwb.utils",
+    "url": "https://github.com/kwb-r/kwb.utils",
+    "via": ["kwb.pubs", "kwb.fakin", "kwb.plot"],
+    "from": "kwb.pubs"
+  },
+  {
+    "package": "kwb.utils",
+    "url": "https://github.com/kwb-r/kwb.utils",
+    "via": ["kwb.pubs", "kwb.fakin", "kwb.plot", "kwb.datetime"],
+    "from": "kwb.pubs"
+  },
+  {
+    "package": "kwb.utils",
+    "url": "https://github.com/kwb-r/kwb.utils",
+    "via": ["kwb.pubs", "kwb.fakin"],
+    "from": "kwb.pubs"
+  },
+  {
+    "package": "kwb.utils",
+    "url": "https://github.com/kwb-r/kwb.utils",
+    "via": ["kwb.pubs"],
+    "from": "kwb.pubs"
+  },
+  {
+    "package": "kwb.utils",
+    "url": "https://github.com/kwb-r/kwb.utils",
     "via": ["kwb.qmra"],
     "branch": "v0.7.0",
     "from": "kwb.qmra"
@@ -4938,6 +5058,12 @@
     "package": "pathlist",
     "url": "https://github.com/hsonne/pathlist",
     "via": ["kwb.pubs", "kwb.endnote", "kwb.read", "kwb.fakin"],
+    "from": "kwb.pubs"
+  },
+  {
+    "package": "pathlist",
+    "url": "https://github.com/hsonne/pathlist",
+    "via": ["kwb.pubs", "kwb.fakin"],
     "from": "kwb.pubs"
   },
   {
