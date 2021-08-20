@@ -1670,6 +1670,12 @@
   {
     "package": "kwb.file",
     "url": "https://github.com/kwb-r/kwb.file",
+    "via": ["kwb.pilot", "kwb.nextcloud"],
+    "from": "kwb.pilot"
+  },
+  {
+    "package": "kwb.file",
+    "url": "https://github.com/kwb-r/kwb.file",
     "via": ["kwb.prep", "kwb.code"],
     "from": "kwb.prep"
   },
@@ -1861,6 +1867,12 @@
     "url": "https://github.com/kwb-r/kwb.nextcloud",
     "via": ["kwb.infoworks"],
     "from": "kwb.infoworks"
+  },
+  {
+    "package": "kwb.nextcloud",
+    "url": "https://github.com/kwb-r/kwb.nextcloud",
+    "via": ["kwb.pilot"],
+    "from": "kwb.pilot"
   },
   {
     "package": "kwb.nextcloud",
@@ -4072,6 +4084,19 @@
     "url": "https://github.com/kwb-r/kwb.utils",
     "via": ["kwb.pathdict"],
     "from": "kwb.pathdict"
+  },
+  {
+    "package": "kwb.utils",
+    "url": "https://github.com/kwb-r/kwb.utils",
+    "via": ["kwb.pilot", "kwb.nextcloud", "kwb.file"],
+    "branch": "v0.6.0",
+    "from": "kwb.pilot"
+  },
+  {
+    "package": "kwb.utils",
+    "url": "https://github.com/kwb-r/kwb.utils",
+    "via": ["kwb.pilot", "kwb.nextcloud"],
+    "from": "kwb.pilot"
   },
   {
     "package": "kwb.utils",
