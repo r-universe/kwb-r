@@ -3099,6 +3099,13 @@
   },
   {
     "package": "kwb.utils",
+    "url": "https://github.com/KWB-R/kwb.utils",
+    "via": ["kwb.misa"],
+    "branch": "dev",
+    "from": "kwb.misa"
+  },
+  {
+    "package": "kwb.utils",
     "url": "https://github.com/kwb-r/kwb.utils",
     "via": ["kwb.ml"],
     "from": "kwb.ml"
