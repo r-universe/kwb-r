@@ -75,6 +75,9 @@
     "package": "kwb.fakin"
   },
   {
+    "package": "kwb.fcr"
+  },
+  {
     "package": "kwb.file"
   },
   {
@@ -116,6 +119,9 @@
   },
   {
     "package": "kwb.matomo"
+  },
+  {
+    "package": "kwb.misa"
   },
   {
     "package": "kwb.ml"

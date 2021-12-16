@@ -128,6 +128,11 @@
 	url = https://github.com/KWB-R/kwb.fakin
 	shallow = true
 	registered = true
+[submodule "kwb.fcr"]
+	path = kwb.fcr
+	url = https://github.com/KWB-R/kwb.fcr
+	shallow = true
+	registered = true
 [submodule "kwb.file"]
 	path = kwb.file
 	url = https://github.com/KWB-R/kwb.file
@@ -196,6 +201,11 @@
 [submodule "kwb.matomo"]
 	path = kwb.matomo
 	url = https://github.com/KWB-R/kwb.matomo
+	shallow = true
+	registered = true
+[submodule "kwb.misa"]
+	path = kwb.misa
+	url = https://github.com/KWB-R/kwb.misa
 	shallow = true
 	registered = true
 [submodule "kwb.ml"]
