@@ -4144,14 +4144,12 @@
     "package": "kwb.utils",
     "url": "https://github.com/kwb-r/kwb.utils",
     "via": ["kwb.prep", "kwb.code", "kwb.file"],
-    "branch": "v0.6.0",
     "from": "kwb.prep"
   },
   {
     "package": "kwb.utils",
     "url": "https://github.com/kwb-r/kwb.utils",
     "via": ["kwb.prep", "kwb.file"],
-    "branch": "v0.6.0",
     "from": "kwb.prep"
   },
   {
