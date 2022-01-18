@@ -308,7 +308,7 @@
   },
   {
     "package": "kwb.code",
-    "url": "https://github.com/kwb-r/kwb.code",
+    "url": "https://github.com/KWB-R/kwb.code",
     "via": ["kwb.prep"],
     "from": "kwb.prep"
   },
@@ -1681,7 +1681,7 @@
   },
   {
     "package": "kwb.file",
-    "url": "https://github.com/kwb-r/kwb.file",
+    "url": "https://github.com/KWB-R/kwb.file",
     "via": ["kwb.prep"],
     "from": "kwb.prep"
   },
@@ -4154,7 +4154,7 @@
   },
   {
     "package": "kwb.utils",
-    "url": "https://github.com/kwb-r/kwb.utils",
+    "url": "https://github.com/KWB-R/kwb.utils",
     "via": ["kwb.prep"],
     "branch": "dev",
     "from": "kwb.prep"
