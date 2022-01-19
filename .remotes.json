@@ -4156,7 +4156,6 @@
     "package": "kwb.utils",
     "url": "https://github.com/KWB-R/kwb.utils",
     "via": ["kwb.prep"],
-    "branch": "dev",
     "from": "kwb.prep"
   },
   {
