@@ -5353,13 +5353,6 @@
   {
     "package": "travis",
     "url": "https://github.com/ropenscilabs/travis",
-    "via": ["kwb.pkgbuild"],
-    "branch": "f2dd9a3640b0cd8266b0a813c8eaf6bf3775c83d",
-    "from": "kwb.pkgbuild"
-  },
-  {
-    "package": "travis",
-    "url": "https://github.com/ropenscilabs/travis",
     "via": ["kwb.pkgstatus", "kwb.pkgbuild"],
     "branch": "f2dd9a3640b0cd8266b0a813c8eaf6bf3775c83d",
     "from": "kwb.pkgstatus"
