@@ -9,13 +9,13 @@
     "package": "dwc.ar4gw"
   },
   {
-    "package": "dwc.wells"
-  },
-  {
     "package": "fakin.path.app"
   },
   {
     "package": "fhpredict"
+  },
+  {
+    "package": "flextreat.hydrus1d"
   },
   {
     "package": "ibathwater"

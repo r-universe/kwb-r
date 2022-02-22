@@ -18,11 +18,6 @@
 	url = https://github.com/KWB-R/dwc.ar4gw
 	shallow = true
 	registered = true
-[submodule "dwc.wells"]
-	path = dwc.wells
-	url = https://github.com/KWB-R/dwc.wells
-	shallow = true
-	registered = true
 [submodule "fakin.path.app"]
 	path = fakin.path.app
 	url = https://github.com/KWB-R/fakin.path.app
@@ -31,6 +26,11 @@
 [submodule "fhpredict"]
 	path = fhpredict
 	url = https://github.com/KWB-R/fhpredict
+	shallow = true
+	registered = true
+[submodule "flextreat.hydrus1d"]
+	path = flextreat.hydrus1d
+	url = https://github.com/KWB-R/flextreat.hydrus1d
 	shallow = true
 	registered = true
 [submodule "ibathwater"]
