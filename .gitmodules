@@ -38,6 +38,11 @@
 	url = https://github.com/KWB-R/flextreat.hydrus1d
 	shallow = true
 	registered = true
+[submodule "geosalz.phreeqc"]
+	path = geosalz.phreeqc
+	url = https://github.com/KWB-R/geosalz.phreeqc
+	shallow = true
+	registered = true
 [submodule "ibathwater"]
 	path = ibathwater
 	url = https://github.com/KWB-R/ibathwater

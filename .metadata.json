@@ -21,6 +21,9 @@
     "package": "flextreat.hydrus1d"
   },
   {
+    "package": "geosalz.phreeqc"
+  },
+  {
     "package": "ibathwater"
   },
   {
