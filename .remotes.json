@@ -3133,6 +3133,12 @@
   {
     "package": "kwb.utils",
     "url": "https://github.com/kwb-r/kwb.utils",
+    "via": ["kwb.hydrus1d"],
+    "from": "kwb.hydrus1d"
+  },
+  {
+    "package": "kwb.utils",
+    "url": "https://github.com/kwb-r/kwb.utils",
     "via": ["kwb.infoworks", "kwb.nextcloud", "kwb.file"],
     "branch": "v0.6.0",
     "from": "kwb.infoworks"
