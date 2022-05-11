@@ -109,6 +109,9 @@
     "package": "kwb.heatsine.opencpu"
   },
   {
+    "package": "kwb.hydrus1d"
+  },
+  {
     "package": "kwb.infoworks"
   },
   {

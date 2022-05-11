@@ -183,6 +183,11 @@
 	url = https://github.com/KWB-R/kwb.heatsine.opencpu
 	shallow = true
 	registered = true
+[submodule "kwb.hydrus1d"]
+	path = kwb.hydrus1d
+	url = https://github.com/KWB-R/kwb.hydrus1d
+	shallow = true
+	registered = true
 [submodule "kwb.infoworks"]
 	path = kwb.infoworks
 	url = https://github.com/KWB-R/kwb.infoworks
