@@ -238,6 +238,12 @@
     "from": "pkgmeta"
   },
   {
+    "package": "kwb.abimo",
+    "url": "https://github.com/kwb-r/kwb.abimo",
+    "via": ["urbanAnnualRunoff"],
+    "from": "urbanAnnualRunoff"
+  },
+  {
     "package": "kwb.base",
     "url": "https://github.com/kwb-r/kwb.base",
     "via": ["geosalz.phreeqc"],
@@ -1885,6 +1891,12 @@
     "url": "https://github.com/kwb-r/kwb.logger",
     "via": ["kwb.ogre.model", "kwb.ogre", "kwb.monitoring"],
     "from": "kwb.ogre.model"
+  },
+  {
+    "package": "kwb.ml",
+    "url": "https://github.com/kwb-r/kwb.ml",
+    "via": ["urbanAnnualRunoff"],
+    "from": "urbanAnnualRunoff"
   },
   {
     "package": "kwb.monitoring",
@@ -4942,6 +4954,18 @@
     "url": "https://github.com/kwb-r/kwb.utils",
     "via": ["sema.berlin.utils"],
     "from": "sema.berlin.utils"
+  },
+  {
+    "package": "kwb.utils",
+    "url": "https://github.com/kwb-r/kwb.utils",
+    "via": ["urbanAnnualRunoff", "kwb.abimo"],
+    "from": "urbanAnnualRunoff"
+  },
+  {
+    "package": "kwb.utils",
+    "url": "https://github.com/kwb-r/kwb.utils",
+    "via": ["urbanAnnualRunoff", "kwb.ml"],
+    "from": "urbanAnnualRunoff"
   },
   {
     "package": "kwb.utils",
