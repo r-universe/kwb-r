@@ -1671,6 +1671,12 @@
   {
     "package": "kwb.file",
     "url": "https://github.com/kwb-r/kwb.file",
+    "via": ["kwb.ml", "kwb.nextcloud"],
+    "from": "kwb.ml"
+  },
+  {
+    "package": "kwb.file",
+    "url": "https://github.com/kwb-r/kwb.file",
     "via": ["kwb.nextcloud"],
     "from": "kwb.nextcloud"
   },
@@ -1934,6 +1940,12 @@
     "url": "https://github.com/kwb-r/kwb.nextcloud",
     "via": ["kwb.infoworks"],
     "from": "kwb.infoworks"
+  },
+  {
+    "package": "kwb.nextcloud",
+    "url": "https://github.com/kwb-r/kwb.nextcloud",
+    "via": ["kwb.ml"],
+    "from": "kwb.ml"
   },
   {
     "package": "kwb.nextcloud",
@@ -3258,6 +3270,18 @@
     "via": ["kwb.misa"],
     "branch": "dev",
     "from": "kwb.misa"
+  },
+  {
+    "package": "kwb.utils",
+    "url": "https://github.com/kwb-r/kwb.utils",
+    "via": ["kwb.ml", "kwb.nextcloud", "kwb.file"],
+    "from": "kwb.ml"
+  },
+  {
+    "package": "kwb.utils",
+    "url": "https://github.com/kwb-r/kwb.utils",
+    "via": ["kwb.ml", "kwb.nextcloud"],
+    "from": "kwb.ml"
   },
   {
     "package": "kwb.utils",
