@@ -4886,7 +4886,6 @@
     "package": "kwb.utils",
     "url": "https://github.com/kwb-r/kwb.utils",
     "via": ["kwb.swmm", "kwb.nextcloud", "kwb.file"],
-    "branch": "v0.6.0",
     "from": "kwb.swmm"
   },
   {
