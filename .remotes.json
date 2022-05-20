@@ -2004,6 +2004,12 @@
   {
     "package": "kwb.orcid",
     "url": "https://github.com/kwb-r/kwb.orcid",
+    "via": ["kwb.satellite", "kwb.pkgbuild"],
+    "from": "kwb.satellite"
+  },
+  {
+    "package": "kwb.orcid",
+    "url": "https://github.com/kwb-r/kwb.orcid",
     "via": ["pkgmeta", "kwb.pkgstatus", "kwb.pkgbuild"],
     "from": "pkgmeta"
   },
@@ -2067,6 +2073,12 @@
     "url": "https://github.com/kwb-r/kwb.pkgbuild",
     "via": ["kwb.pkgstatus"],
     "from": "kwb.pkgstatus"
+  },
+  {
+    "package": "kwb.pkgbuild",
+    "url": "https://github.com/kwb-r/kwb.pkgbuild",
+    "via": ["kwb.satellite"],
+    "from": "kwb.satellite"
   },
   {
     "package": "kwb.pkgbuild",
@@ -4842,6 +4854,12 @@
   {
     "package": "kwb.utils",
     "url": "https://github.com/kwb-r/kwb.utils",
+    "via": ["kwb.satellite", "kwb.pkgbuild"],
+    "from": "kwb.satellite"
+  },
+  {
+    "package": "kwb.utils",
+    "url": "https://github.com/kwb-r/kwb.utils",
     "via": ["kwb.site"],
     "from": "kwb.site"
   },
@@ -5521,6 +5539,12 @@
     "url": "https://github.com/ropensci/rorcid",
     "via": ["kwb.pkgstatus", "kwb.pkgbuild", "kwb.orcid"],
     "from": "kwb.pkgstatus"
+  },
+  {
+    "package": "rorcid",
+    "url": "https://github.com/ropensci/rorcid",
+    "via": ["kwb.satellite", "kwb.pkgbuild", "kwb.orcid"],
+    "from": "kwb.satellite"
   },
   {
     "package": "rorcid",
