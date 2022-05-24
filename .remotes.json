@@ -2598,6 +2598,12 @@
   {
     "package": "kwb.utils",
     "url": "https://github.com/kwb-r/kwb.utils",
+    "via": ["geosalz.phreeqc"],
+    "from": "geosalz.phreeqc"
+  },
+  {
+    "package": "kwb.utils",
+    "url": "https://github.com/kwb-r/kwb.utils",
     "via": ["ibathwater", "kwb.dwd"],
     "from": "ibathwater"
   },
