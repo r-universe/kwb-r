@@ -1869,6 +1869,12 @@
     "from": "kwb.heatsine.opencpu"
   },
   {
+    "package": "kwb.hydrus1d",
+    "url": "https://github.com/kwb-r/kwb.hydrus1d",
+    "via": ["flextreat.hydrus1d"],
+    "from": "flextreat.hydrus1d"
+  },
+  {
     "package": "kwb.logger",
     "url": "https://github.com/kwb-r/kwb.logger",
     "via": ["kwb.monitoring"],
@@ -2528,6 +2534,12 @@
     "via": ["fhpredict"],
     "branch": "v0.5.0",
     "from": "fhpredict"
+  },
+  {
+    "package": "kwb.utils",
+    "url": "https://github.com/kwb-r/kwb.utils",
+    "via": ["flextreat.hydrus1d", "kwb.hydrus1d"],
+    "from": "flextreat.hydrus1d"
   },
   {
     "package": "kwb.utils",
