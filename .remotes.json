@@ -5336,7 +5336,7 @@
   },
   {
     "package": "pkgnet",
-    "url": "https://github.com/UptakeOpenSource/pkgnet",
+    "url": "https://github.com/uptake/pkgnet",
     "via": ["pkgmeta"],
     "branch": "d1e974de299d46e71b082e027a71b8b254edc9b2",
     "from": "pkgmeta"
@@ -5595,13 +5595,6 @@
     "via": ["kwb.swmm"],
     "branch": "mydev",
     "from": "kwb.swmm"
-  },
-  {
-    "package": "travis",
-    "url": "https://github.com/ropenscilabs/travis",
-    "via": ["pkgmeta", "kwb.pkgstatus", "kwb.pkgbuild"],
-    "branch": "f2dd9a3640b0cd8266b0a813c8eaf6bf3775c83d",
-    "from": "pkgmeta"
   },
   {
     "package": "wordcloud2",

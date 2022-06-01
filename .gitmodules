@@ -449,7 +449,7 @@
 	registered = false
 [submodule "pkgnet"]
 	path = pkgnet
-	url = https://github.com/UptakeOpenSource/pkgnet
+	url = https://github.com/uptake/pkgnet
 	shallow = true
 	branch = d1e974de299d46e71b082e027a71b8b254edc9b2
 	registered = false
@@ -468,12 +468,6 @@
 	url = https://github.com/hsonne/swmmr
 	shallow = true
 	branch = mydev
-	registered = false
-[submodule "travis"]
-	path = travis
-	url = https://github.com/ropenscilabs/travis
-	shallow = true
-	branch = f2dd9a3640b0cd8266b0a813c8eaf6bf3775c83d
 	registered = false
 [submodule "wordcloud2"]
 	path = wordcloud2
