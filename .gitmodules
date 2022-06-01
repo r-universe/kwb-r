@@ -436,11 +436,6 @@
 	shallow = true
 	branch = v0.3.0
 	registered = false
-[submodule "influxdbclient"]
-	path = influxdbclient
-	url = https://github.com/influxdata/influxdb-client-r
-	shallow = true
-	registered = false
 [submodule "odbc32"]
 	path = odbc32
 	url = https://github.com/hsonne/odbc32

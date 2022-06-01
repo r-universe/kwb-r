@@ -238,12 +238,6 @@
     "from": "pkgmeta"
   },
   {
-    "package": "influxdbclient",
-    "url": "https://github.com/influxdata/influxdb-client-r",
-    "via": ["kwb.pilot"],
-    "from": "kwb.pilot"
-  },
-  {
     "package": "kwb.abimo",
     "url": "https://github.com/kwb-r/kwb.abimo",
     "via": ["urbanAnnualRunoff"],
