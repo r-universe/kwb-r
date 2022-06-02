@@ -112,6 +112,9 @@
     "package": "kwb.hydrus1d"
   },
   {
+    "package": "kwb.impetus"
+  },
+  {
     "package": "kwb.infoworks"
   },
   {
