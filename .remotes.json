@@ -4728,7 +4728,6 @@
     "package": "kwb.utils",
     "url": "https://github.com/kwb-r/kwb.utils",
     "via": ["kwb.read", "kwb.fakin", "pathlist", "kwb.file"],
-    "branch": "v0.6.0",
     "from": "kwb.read"
   },
   {
@@ -4747,21 +4746,18 @@
     "package": "kwb.utils",
     "url": "https://github.com/kwb-r/kwb.utils",
     "via": ["kwb.read", "kwb.fakin", "kwb.code", "kwb.file"],
-    "branch": "v0.6.0",
     "from": "kwb.read"
   },
   {
     "package": "kwb.utils",
     "url": "https://github.com/kwb-r/kwb.utils",
     "via": ["kwb.read", "kwb.fakin", "kwb.file"],
-    "branch": "v0.6.0",
     "from": "kwb.read"
   },
   {
     "package": "kwb.utils",
     "url": "https://github.com/kwb-r/kwb.utils",
     "via": ["kwb.read", "kwb.fakin", "kwb.pathdict", "kwb.file"],
-    "branch": "v0.6.0",
     "from": "kwb.read"
   },
   {
