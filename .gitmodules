@@ -223,6 +223,16 @@
 	url = https://github.com/KWB-R/kwb.matomo
 	shallow = true
 	registered = true
+[submodule "kwb.mia.evalCritO2"]
+	path = kwb.mia.evalCritO2
+	url = https://github.com/KWB-R/kwb.mia.evalCritO2
+	shallow = true
+	registered = true
+[submodule "kwb.mia.iw"]
+	path = kwb.mia.iw
+	url = https://github.com/KWB-R/kwb.mia.iw
+	shallow = true
+	registered = true
 [submodule "kwb.misa"]
 	path = kwb.misa
 	url = https://github.com/KWB-R/kwb.misa

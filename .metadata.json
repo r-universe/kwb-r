@@ -133,6 +133,12 @@
     "package": "kwb.matomo"
   },
   {
+    "package": "kwb.mia.evalCritO2"
+  },
+  {
+    "package": "kwb.mia.iw"
+  },
+  {
     "package": "kwb.misa"
   },
   {
