@@ -233,9 +233,19 @@
 	url = https://github.com/KWB-R/kwb.mia.iw
 	shallow = true
 	registered = true
+[submodule "kwb.miacso"]
+	path = kwb.miacso
+	url = https://github.com/KWB-R/kwb.miacso
+	shallow = true
+	registered = true
 [submodule "kwb.misa"]
 	path = kwb.misa
 	url = https://github.com/KWB-R/kwb.misa
+	shallow = true
+	registered = true
+[submodule "kwb.misc"]
+	path = kwb.misc
+	url = https://github.com/KWB-R/kwb.misc
 	shallow = true
 	registered = true
 [submodule "kwb.ml"]

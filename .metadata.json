@@ -139,7 +139,13 @@
     "package": "kwb.mia.iw"
   },
   {
+    "package": "kwb.miacso"
+  },
+  {
     "package": "kwb.misa"
+  },
+  {
+    "package": "kwb.misc"
   },
   {
     "package": "kwb.ml"
