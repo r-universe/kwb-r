@@ -3607,14 +3607,13 @@
   {
     "package": "kwb.utils",
     "url": "https://github.com/kwb-r/kwb.utils",
-    "via": ["kwb.code"],
+    "via": ["kwb.code", "kwb.file"],
     "from": "kwb.code"
   },
   {
     "package": "kwb.utils",
     "url": "https://github.com/kwb-r/kwb.utils",
-    "via": ["kwb.code", "kwb.file"],
-    "branch": "v0.6.0",
+    "via": ["kwb.code"],
     "from": "kwb.code"
   },
   {
