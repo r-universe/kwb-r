@@ -5909,13 +5909,13 @@
   {
     "package": "kwb.utils",
     "url": "https://github.com/kwb-r/kwb.utils",
-    "via": ["kwb.prep", "kwb.code"],
+    "via": ["kwb.prep", "kwb.code", "kwb.file"],
     "from": "kwb.prep"
   },
   {
     "package": "kwb.utils",
     "url": "https://github.com/kwb-r/kwb.utils",
-    "via": ["kwb.prep", "kwb.code", "kwb.file"],
+    "via": ["kwb.prep", "kwb.code"],
     "from": "kwb.prep"
   },
   {
