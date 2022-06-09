@@ -203,6 +203,11 @@
 	url = https://github.com/KWB-R/kwb.iview
 	shallow = true
 	registered = true
+[submodule "kwb.kuras"]
+	path = kwb.kuras
+	url = https://github.com/KWB-R/kwb.kuras
+	shallow = true
+	registered = true
 [submodule "kwb.kuras.db"]
 	path = kwb.kuras.db
 	url = https://github.com/KWB-R/kwb.kuras.db
@@ -336,6 +341,11 @@
 [submodule "kwb.quantum"]
 	path = kwb.quantum
 	url = https://github.com/KWB-R/kwb.quantum
+	shallow = true
+	registered = true
+[submodule "kwb.rain"]
+	path = kwb.rain
+	url = https://github.com/KWB-R/kwb.rain
 	shallow = true
 	registered = true
 [submodule "kwb.read"]

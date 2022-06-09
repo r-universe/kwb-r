@@ -121,6 +121,9 @@
     "package": "kwb.iview"
   },
   {
+    "package": "kwb.kuras"
+  },
+  {
     "package": "kwb.kuras.db"
   },
   {
@@ -200,6 +203,9 @@
   },
   {
     "package": "kwb.quantum"
+  },
+  {
+    "package": "kwb.rain"
   },
   {
     "package": "kwb.read"
