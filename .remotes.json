@@ -366,6 +366,13 @@
   {
     "package": "RODBC",
     "url": "https://github.com/cran/RODBC",
+    "via": ["kwb.read", "kwb.fakin", "fakin.path.app", "kwb.db"],
+    "branch": "1.3-16",
+    "from": "kwb.read"
+  },
+  {
+    "package": "RODBC",
+    "url": "https://github.com/cran/RODBC",
     "via": ["kwb.vs2dh", "kwb.db"],
     "branch": "1.3-16",
     "from": "kwb.vs2dh"
@@ -402,6 +409,12 @@
     "url": "https://github.com/kwb-r/fakin.path.app",
     "via": ["kwb.kuras", "kwb.ogre", "kwb.read", "kwb.fakin"],
     "from": "kwb.kuras"
+  },
+  {
+    "package": "fakin.path.app",
+    "url": "https://github.com/kwb-r/fakin.path.app",
+    "via": ["kwb.read", "kwb.fakin"],
+    "from": "kwb.read"
   },
   {
     "package": "kwb.abimo",
@@ -606,7 +619,12 @@
     "package": "kwb.code",
     "url": "https://github.com/kwb-r/kwb.code",
     "via": ["kwb.read", "kwb.fakin"],
-    "branch": "v0.1.0",
+    "from": "kwb.read"
+  },
+  {
+    "package": "kwb.code",
+    "url": "https://github.com/KWB-R/kwb.code",
+    "via": ["kwb.read", "kwb.fakin", "kwb.prep"],
     "from": "kwb.read"
   },
   {
@@ -1914,6 +1932,12 @@
   {
     "package": "kwb.datetime",
     "url": "https://github.com/kwb-r/kwb.datetime",
+    "via": ["kwb.read", "kwb.fakin", "fakin.path.app", "kwb.db"],
+    "from": "kwb.read"
+  },
+  {
+    "package": "kwb.datetime",
+    "url": "https://github.com/kwb-r/kwb.datetime",
     "via": ["kwb.read", "kwb.fakin", "kwb.plot"],
     "from": "kwb.read"
   },
@@ -2277,6 +2301,12 @@
     "package": "kwb.db",
     "url": "https://github.com/kwb-r/kwb.db",
     "via": ["kwb.read"],
+    "from": "kwb.read"
+  },
+  {
+    "package": "kwb.db",
+    "url": "https://github.com/kwb-r/kwb.db",
+    "via": ["kwb.read", "kwb.fakin", "fakin.path.app"],
     "from": "kwb.read"
   },
   {
@@ -3009,6 +3039,18 @@
   {
     "package": "kwb.file",
     "url": "https://github.com/kwb-r/kwb.file",
+    "via": ["kwb.read", "kwb.fakin", "fakin.path.app", "pathlist"],
+    "from": "kwb.read"
+  },
+  {
+    "package": "kwb.file",
+    "url": "https://github.com/kwb-r/kwb.file",
+    "via": ["kwb.read", "kwb.fakin", "fakin.path.app"],
+    "from": "kwb.read"
+  },
+  {
+    "package": "kwb.file",
+    "url": "https://github.com/kwb-r/kwb.file",
     "via": ["kwb.read", "kwb.fakin", "kwb.code"],
     "from": "kwb.read"
   },
@@ -3022,6 +3064,18 @@
     "package": "kwb.file",
     "url": "https://github.com/kwb-r/kwb.file",
     "via": ["kwb.read", "kwb.fakin", "kwb.pathdict"],
+    "from": "kwb.read"
+  },
+  {
+    "package": "kwb.file",
+    "url": "https://github.com/kwb-r/kwb.file",
+    "via": ["kwb.read", "kwb.fakin", "kwb.prep", "kwb.code"],
+    "from": "kwb.read"
+  },
+  {
+    "package": "kwb.file",
+    "url": "https://github.com/KWB-R/kwb.file",
+    "via": ["kwb.read", "kwb.fakin", "kwb.prep"],
     "from": "kwb.read"
   },
   {
@@ -3338,7 +3392,6 @@
     "package": "kwb.pathdict",
     "url": "https://github.com/kwb-r/kwb.pathdict",
     "via": ["kwb.read", "kwb.fakin"],
-    "branch": "v0.1.0",
     "from": "kwb.read"
   },
   {
@@ -3840,6 +3893,12 @@
     "url": "https://github.com/kwb-r/kwb.prep",
     "via": ["kwb.kuras", "kwb.ogre", "kwb.read", "kwb.fakin"],
     "from": "kwb.kuras"
+  },
+  {
+    "package": "kwb.prep",
+    "url": "https://github.com/kwb-r/kwb.prep",
+    "via": ["kwb.read", "kwb.fakin"],
+    "from": "kwb.read"
   },
   {
     "package": "kwb.python",
@@ -7545,19 +7604,7 @@
   {
     "package": "kwb.utils",
     "url": "https://github.com/kwb-r/kwb.utils",
-    "via": ["kwb.read", "kwb.base", "kwb.event"],
-    "from": "kwb.read"
-  },
-  {
-    "package": "kwb.utils",
-    "url": "https://github.com/kwb-r/kwb.utils",
     "via": ["kwb.read", "kwb.base", "kwb.event", "kwb.datetime"],
-    "from": "kwb.read"
-  },
-  {
-    "package": "kwb.utils",
-    "url": "https://github.com/kwb-r/kwb.utils",
-    "via": ["kwb.read", "kwb.base", "kwb.event", "kwb.plot"],
     "from": "kwb.read"
   },
   {
@@ -7569,13 +7616,25 @@
   {
     "package": "kwb.utils",
     "url": "https://github.com/kwb-r/kwb.utils",
-    "via": ["kwb.read", "kwb.base", "kwb.plot"],
+    "via": ["kwb.read", "kwb.base", "kwb.event", "kwb.plot"],
+    "from": "kwb.read"
+  },
+  {
+    "package": "kwb.utils",
+    "url": "https://github.com/kwb-r/kwb.utils",
+    "via": ["kwb.read", "kwb.base", "kwb.event"],
     "from": "kwb.read"
   },
   {
     "package": "kwb.utils",
     "url": "https://github.com/kwb-r/kwb.utils",
     "via": ["kwb.read", "kwb.base", "kwb.plot", "kwb.datetime"],
+    "from": "kwb.read"
+  },
+  {
+    "package": "kwb.utils",
+    "url": "https://github.com/kwb-r/kwb.utils",
+    "via": ["kwb.read", "kwb.base", "kwb.plot"],
     "from": "kwb.read"
   },
   {
@@ -7623,13 +7682,49 @@
   {
     "package": "kwb.utils",
     "url": "https://github.com/kwb-r/kwb.utils",
-    "via": ["kwb.read", "kwb.fakin", "kwb.code"],
+    "via": ["kwb.read", "kwb.fakin", "fakin.path.app", "pathlist", "kwb.file"],
+    "from": "kwb.read"
+  },
+  {
+    "package": "kwb.utils",
+    "url": "https://github.com/kwb-r/kwb.utils",
+    "via": ["kwb.read", "kwb.fakin", "fakin.path.app", "pathlist"],
+    "from": "kwb.read"
+  },
+  {
+    "package": "kwb.utils",
+    "url": "https://github.com/kwb-r/kwb.utils",
+    "via": ["kwb.read", "kwb.fakin", "fakin.path.app", "kwb.db", "kwb.datetime"],
+    "from": "kwb.read"
+  },
+  {
+    "package": "kwb.utils",
+    "url": "https://github.com/kwb-r/kwb.utils",
+    "via": ["kwb.read", "kwb.fakin", "fakin.path.app", "kwb.db"],
+    "from": "kwb.read"
+  },
+  {
+    "package": "kwb.utils",
+    "url": "https://github.com/kwb-r/kwb.utils",
+    "via": ["kwb.read", "kwb.fakin", "fakin.path.app", "kwb.file"],
+    "from": "kwb.read"
+  },
+  {
+    "package": "kwb.utils",
+    "url": "https://github.com/kwb-r/kwb.utils",
+    "via": ["kwb.read", "kwb.fakin", "fakin.path.app"],
     "from": "kwb.read"
   },
   {
     "package": "kwb.utils",
     "url": "https://github.com/kwb-r/kwb.utils",
     "via": ["kwb.read", "kwb.fakin", "kwb.code", "kwb.file"],
+    "from": "kwb.read"
+  },
+  {
+    "package": "kwb.utils",
+    "url": "https://github.com/kwb-r/kwb.utils",
+    "via": ["kwb.read", "kwb.fakin", "kwb.code"],
     "from": "kwb.read"
   },
   {
@@ -7653,13 +7748,37 @@
   {
     "package": "kwb.utils",
     "url": "https://github.com/kwb-r/kwb.utils",
+    "via": ["kwb.read", "kwb.fakin", "kwb.plot", "kwb.datetime"],
+    "from": "kwb.read"
+  },
+  {
+    "package": "kwb.utils",
+    "url": "https://github.com/kwb-r/kwb.utils",
     "via": ["kwb.read", "kwb.fakin", "kwb.plot"],
     "from": "kwb.read"
   },
   {
     "package": "kwb.utils",
     "url": "https://github.com/kwb-r/kwb.utils",
-    "via": ["kwb.read", "kwb.fakin", "kwb.plot", "kwb.datetime"],
+    "via": ["kwb.read", "kwb.fakin", "kwb.prep", "kwb.code", "kwb.file"],
+    "from": "kwb.read"
+  },
+  {
+    "package": "kwb.utils",
+    "url": "https://github.com/kwb-r/kwb.utils",
+    "via": ["kwb.read", "kwb.fakin", "kwb.prep", "kwb.code"],
+    "from": "kwb.read"
+  },
+  {
+    "package": "kwb.utils",
+    "url": "https://github.com/kwb-r/kwb.utils",
+    "via": ["kwb.read", "kwb.fakin", "kwb.prep", "kwb.file"],
+    "from": "kwb.read"
+  },
+  {
+    "package": "kwb.utils",
+    "url": "https://github.com/KWB-R/kwb.utils",
+    "via": ["kwb.read", "kwb.fakin", "kwb.prep"],
     "from": "kwb.read"
   },
   {
@@ -8307,6 +8426,13 @@
   {
     "package": "odbc32",
     "url": "https://github.com/hsonne/odbc32",
+    "via": ["kwb.read", "kwb.fakin", "fakin.path.app", "kwb.db"],
+    "branch": "r3.0.0",
+    "from": "kwb.read"
+  },
+  {
+    "package": "odbc32",
+    "url": "https://github.com/hsonne/odbc32",
     "via": ["kwb.vs2dh", "kwb.db"],
     "branch": "r3.0.0",
     "from": "kwb.vs2dh"
@@ -8394,6 +8520,12 @@
     "package": "pathlist",
     "url": "https://github.com/hsonne/pathlist",
     "via": ["kwb.read", "kwb.fakin"],
+    "from": "kwb.read"
+  },
+  {
+    "package": "pathlist",
+    "url": "https://github.com/hsonne/pathlist",
+    "via": ["kwb.read", "kwb.fakin", "fakin.path.app"],
     "from": "kwb.read"
   },
   {
@@ -8720,6 +8852,12 @@
     "package": "r2r",
     "url": "https://github.com/vh-d/r2r",
     "via": ["kwb.read", "kwb.db", "odbc32"],
+    "from": "kwb.read"
+  },
+  {
+    "package": "r2r",
+    "url": "https://github.com/vh-d/r2r",
+    "via": ["kwb.read", "kwb.fakin", "fakin.path.app", "kwb.db", "odbc32"],
     "from": "kwb.read"
   },
   {
