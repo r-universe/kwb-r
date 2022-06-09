@@ -4226,19 +4226,7 @@
   {
     "package": "kwb.utils",
     "url": "https://github.com/kwb-r/kwb.utils",
-    "via": ["kwb.base", "kwb.event"],
-    "from": "kwb.base"
-  },
-  {
-    "package": "kwb.utils",
-    "url": "https://github.com/kwb-r/kwb.utils",
     "via": ["kwb.base", "kwb.event", "kwb.datetime"],
-    "from": "kwb.base"
-  },
-  {
-    "package": "kwb.utils",
-    "url": "https://github.com/kwb-r/kwb.utils",
-    "via": ["kwb.base", "kwb.event", "kwb.plot"],
     "from": "kwb.base"
   },
   {
@@ -4250,13 +4238,25 @@
   {
     "package": "kwb.utils",
     "url": "https://github.com/kwb-r/kwb.utils",
-    "via": ["kwb.base", "kwb.plot"],
+    "via": ["kwb.base", "kwb.event", "kwb.plot"],
+    "from": "kwb.base"
+  },
+  {
+    "package": "kwb.utils",
+    "url": "https://github.com/kwb-r/kwb.utils",
+    "via": ["kwb.base", "kwb.event"],
     "from": "kwb.base"
   },
   {
     "package": "kwb.utils",
     "url": "https://github.com/kwb-r/kwb.utils",
     "via": ["kwb.base", "kwb.plot", "kwb.datetime"],
+    "from": "kwb.base"
+  },
+  {
+    "package": "kwb.utils",
+    "url": "https://github.com/kwb-r/kwb.utils",
+    "via": ["kwb.base", "kwb.plot"],
     "from": "kwb.base"
   },
   {
