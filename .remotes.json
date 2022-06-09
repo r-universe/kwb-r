@@ -7217,13 +7217,13 @@
   {
     "package": "kwb.utils",
     "url": "https://github.com/kwb-r/kwb.utils",
-    "via": ["kwb.plot"],
+    "via": ["kwb.plot", "kwb.datetime"],
     "from": "kwb.plot"
   },
   {
     "package": "kwb.utils",
     "url": "https://github.com/kwb-r/kwb.utils",
-    "via": ["kwb.plot", "kwb.datetime"],
+    "via": ["kwb.plot"],
     "from": "kwb.plot"
   },
   {
