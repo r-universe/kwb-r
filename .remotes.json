@@ -2398,7 +2398,6 @@
     "package": "kwb.db",
     "url": "https://github.com/kwb-r/kwb.db",
     "via": ["kwb.kuras.db"],
-    "branch": "v0.4.0",
     "from": "kwb.kuras.db"
   },
   {
@@ -4085,7 +4084,6 @@
     "package": "kwb.plot",
     "url": "https://github.com/kwb-r/kwb.plot",
     "via": ["kwb.kuras.db"],
-    "branch": "v0.3.0",
     "from": "kwb.kuras.db"
   },
   {
@@ -6024,20 +6022,19 @@
   {
     "package": "kwb.utils",
     "url": "https://github.com/kwb-r/kwb.utils",
-    "via": ["kwb.kuras.db", "kwb.plot"],
-    "from": "kwb.kuras.db"
-  },
-  {
-    "package": "kwb.utils",
-    "url": "https://github.com/kwb-r/kwb.utils",
     "via": ["kwb.kuras.db", "kwb.plot", "kwb.datetime"],
     "from": "kwb.kuras.db"
   },
   {
     "package": "kwb.utils",
     "url": "https://github.com/kwb-r/kwb.utils",
+    "via": ["kwb.kuras.db", "kwb.plot"],
+    "from": "kwb.kuras.db"
+  },
+  {
+    "package": "kwb.utils",
+    "url": "https://github.com/kwb-r/kwb.utils",
     "via": ["kwb.kuras.db"],
-    "branch": "v0.5.1",
     "from": "kwb.kuras.db"
   },
   {
