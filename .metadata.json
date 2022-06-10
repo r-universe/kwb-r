@@ -75,6 +75,9 @@
     "package": "kwb.endnote"
   },
   {
+    "package": "kwb.epanet"
+  },
+  {
     "package": "kwb.event"
   },
   {
@@ -94,6 +97,9 @@
   },
   {
     "package": "kwb.geosalz"
+  },
+  {
+    "package": "kwb.gocr"
   },
   {
     "package": "kwb.graph"
