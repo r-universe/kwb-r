@@ -5414,6 +5414,12 @@
   {
     "package": "kwb.utils",
     "url": "https://github.com/kwb-r/kwb.utils",
+    "via": ["kwb.gocr"],
+    "from": "kwb.gocr"
+  },
+  {
+    "package": "kwb.utils",
+    "url": "https://github.com/kwb-r/kwb.utils",
     "via": ["kwb.graph"],
     "from": "kwb.graph"
   },
