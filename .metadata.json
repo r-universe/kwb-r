@@ -181,6 +181,9 @@
     "package": "kwb.orcid"
   },
   {
+    "package": "kwb.package"
+  },
+  {
     "package": "kwb.pathdict"
   },
   {

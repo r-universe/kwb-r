@@ -303,6 +303,11 @@
 	url = https://github.com/KWB-R/kwb.orcid
 	shallow = true
 	registered = true
+[submodule "kwb.package"]
+	path = kwb.package
+	url = https://github.com/KWB-R/kwb.package
+	shallow = true
+	registered = true
 [submodule "kwb.pathdict"]
 	path = kwb.pathdict
 	url = https://github.com/KWB-R/kwb.pathdict
