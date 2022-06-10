@@ -902,6 +902,12 @@
   {
     "package": "kwb.datetime",
     "url": "https://github.com/kwb-r/kwb.datetime",
+    "via": ["kwb.epanet", "kwb.plot"],
+    "from": "kwb.epanet"
+  },
+  {
+    "package": "kwb.datetime",
+    "url": "https://github.com/kwb-r/kwb.datetime",
     "via": ["kwb.event"],
     "from": "kwb.event"
   },
@@ -3992,6 +3998,12 @@
   {
     "package": "kwb.plot",
     "url": "https://github.com/kwb-r/kwb.plot",
+    "via": ["kwb.epanet"],
+    "from": "kwb.epanet"
+  },
+  {
+    "package": "kwb.plot",
+    "url": "https://github.com/kwb-r/kwb.plot",
     "via": ["kwb.event"],
     "from": "kwb.event"
   },
@@ -5200,6 +5212,24 @@
     "url": "https://github.com/kwb-r/kwb.utils",
     "via": ["kwb.endnote"],
     "from": "kwb.endnote"
+  },
+  {
+    "package": "kwb.utils",
+    "url": "https://github.com/kwb-r/kwb.utils",
+    "via": ["kwb.epanet", "kwb.plot", "kwb.datetime"],
+    "from": "kwb.epanet"
+  },
+  {
+    "package": "kwb.utils",
+    "url": "https://github.com/kwb-r/kwb.utils",
+    "via": ["kwb.epanet", "kwb.plot"],
+    "from": "kwb.epanet"
+  },
+  {
+    "package": "kwb.utils",
+    "url": "https://github.com/kwb-r/kwb.utils",
+    "via": ["kwb.epanet"],
+    "from": "kwb.epanet"
   },
   {
     "package": "kwb.utils",
