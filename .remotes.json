@@ -450,6 +450,13 @@
   {
     "package": "codemetar",
     "url": "https://github.com/ropensci/codemetar",
+    "via": ["kwb.package", "pkgmeta"],
+    "branch": "v0.3.0",
+    "from": "kwb.package"
+  },
+  {
+    "package": "codemetar",
+    "url": "https://github.com/ropensci/codemetar",
     "via": ["pkgmeta"],
     "branch": "v0.3.0",
     "from": "pkgmeta"
@@ -3805,6 +3812,12 @@
   {
     "package": "kwb.orcid",
     "url": "https://github.com/kwb-r/kwb.orcid",
+    "via": ["kwb.package", "pkgmeta", "kwb.pkgstatus", "kwb.pkgbuild"],
+    "from": "kwb.package"
+  },
+  {
+    "package": "kwb.orcid",
+    "url": "https://github.com/kwb-r/kwb.orcid",
     "via": ["kwb.pkgbuild"],
     "from": "kwb.pkgbuild"
   },
@@ -3914,6 +3927,12 @@
   {
     "package": "kwb.pkgbuild",
     "url": "https://github.com/kwb-r/kwb.pkgbuild",
+    "via": ["kwb.package", "pkgmeta", "kwb.pkgstatus"],
+    "from": "kwb.package"
+  },
+  {
+    "package": "kwb.pkgbuild",
+    "url": "https://github.com/kwb-r/kwb.pkgbuild",
     "via": ["kwb.pkgstatus"],
     "from": "kwb.pkgstatus"
   },
@@ -3934,6 +3953,12 @@
     "url": "https://github.com/kwb-r/kwb.pkgbuild",
     "via": ["wasserportal"],
     "from": "wasserportal"
+  },
+  {
+    "package": "kwb.pkgstatus",
+    "url": "https://github.com/kwb-r/kwb.pkgstatus",
+    "via": ["kwb.package", "pkgmeta"],
+    "from": "kwb.package"
   },
   {
     "package": "kwb.pkgstatus",
@@ -7868,6 +7893,24 @@
   {
     "package": "kwb.utils",
     "url": "https://github.com/kwb-r/kwb.utils",
+    "via": ["kwb.package"],
+    "from": "kwb.package"
+  },
+  {
+    "package": "kwb.utils",
+    "url": "https://github.com/kwb-r/kwb.utils",
+    "via": ["kwb.package", "pkgmeta", "kwb.pkgstatus", "kwb.pkgbuild"],
+    "from": "kwb.package"
+  },
+  {
+    "package": "kwb.utils",
+    "url": "https://github.com/kwb-r/kwb.utils",
+    "via": ["kwb.package", "pkgmeta"],
+    "from": "kwb.package"
+  },
+  {
+    "package": "kwb.utils",
+    "url": "https://github.com/kwb-r/kwb.utils",
     "via": ["kwb.pathdict", "kwb.file"],
     "branch": "v0.6.0",
     "from": "kwb.pathdict"
@@ -9814,6 +9857,19 @@
     "from": "kwb.read"
   },
   {
+    "package": "pkgmeta",
+    "url": "https://github.com/kwb-r/pkgmeta",
+    "via": ["kwb.package"],
+    "from": "kwb.package"
+  },
+  {
+    "package": "pkgnet",
+    "url": "https://github.com/uptake/pkgnet",
+    "via": ["kwb.package", "pkgmeta"],
+    "branch": "d1e974de299d46e71b082e027a71b8b254edc9b2",
+    "from": "kwb.package"
+  },
+  {
     "package": "pkgnet",
     "url": "https://github.com/uptake/pkgnet",
     "via": ["pkgmeta"],
@@ -10214,6 +10270,12 @@
   {
     "package": "rorcid",
     "url": "https://github.com/ropensci/rorcid",
+    "via": ["kwb.package", "pkgmeta", "kwb.pkgstatus", "kwb.pkgbuild", "kwb.orcid"],
+    "from": "kwb.package"
+  },
+  {
+    "package": "rorcid",
+    "url": "https://github.com/ropensci/rorcid",
     "via": ["kwb.pkgbuild", "kwb.orcid"],
     "from": "kwb.pkgbuild"
   },
@@ -10260,6 +10322,12 @@
     "via": ["kwb.swmm"],
     "branch": "mydev",
     "from": "kwb.swmm"
+  },
+  {
+    "package": "wordcloud2",
+    "url": "https://github.com/Lchiffon/wordcloud2",
+    "via": ["kwb.package", "pkgmeta"],
+    "from": "kwb.package"
   },
   {
     "package": "wordcloud2",
