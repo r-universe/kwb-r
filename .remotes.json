@@ -9130,7 +9130,6 @@
     "package": "kwb.utils",
     "url": "https://github.com/kwb-r/kwb.utils",
     "via": ["kwb.svn", "kwb.file"],
-    "branch": "v0.6.0",
     "from": "kwb.svn"
   },
   {
