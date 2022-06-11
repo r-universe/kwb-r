@@ -861,6 +861,18 @@
   {
     "package": "kwb.datetime",
     "url": "https://github.com/kwb-r/kwb.datetime",
+    "via": ["kwb.dygraph", "kwb.event"],
+    "from": "kwb.dygraph"
+  },
+  {
+    "package": "kwb.datetime",
+    "url": "https://github.com/kwb-r/kwb.datetime",
+    "via": ["kwb.dygraph", "kwb.event", "kwb.plot"],
+    "from": "kwb.dygraph"
+  },
+  {
+    "package": "kwb.datetime",
+    "url": "https://github.com/kwb-r/kwb.datetime",
     "via": ["kwb.endnote", "kwb.read", "kwb.base"],
     "from": "kwb.endnote"
   },
@@ -2795,6 +2807,12 @@
   {
     "package": "kwb.event",
     "url": "https://github.com/kwb-r/kwb.event",
+    "via": ["kwb.dygraph"],
+    "from": "kwb.dygraph"
+  },
+  {
+    "package": "kwb.event",
+    "url": "https://github.com/kwb-r/kwb.event",
     "via": ["kwb.endnote", "kwb.read", "kwb.base"],
     "from": "kwb.endnote"
   },
@@ -4005,6 +4023,12 @@
   {
     "package": "kwb.plot",
     "url": "https://github.com/kwb-r/kwb.plot",
+    "via": ["kwb.dygraph", "kwb.event"],
+    "from": "kwb.dygraph"
+  },
+  {
+    "package": "kwb.plot",
+    "url": "https://github.com/kwb-r/kwb.plot",
     "via": ["kwb.endnote", "kwb.read", "kwb.base", "kwb.event"],
     "from": "kwb.endnote"
   },
@@ -5064,6 +5088,30 @@
     "url": "https://github.com/kwb-r/kwb.utils",
     "via": ["kwb.dwd"],
     "from": "kwb.dwd"
+  },
+  {
+    "package": "kwb.utils",
+    "url": "https://github.com/kwb-r/kwb.utils",
+    "via": ["kwb.dygraph", "kwb.event", "kwb.datetime"],
+    "from": "kwb.dygraph"
+  },
+  {
+    "package": "kwb.utils",
+    "url": "https://github.com/kwb-r/kwb.utils",
+    "via": ["kwb.dygraph", "kwb.event", "kwb.plot", "kwb.datetime"],
+    "from": "kwb.dygraph"
+  },
+  {
+    "package": "kwb.utils",
+    "url": "https://github.com/kwb-r/kwb.utils",
+    "via": ["kwb.dygraph", "kwb.event", "kwb.plot"],
+    "from": "kwb.dygraph"
+  },
+  {
+    "package": "kwb.utils",
+    "url": "https://github.com/kwb-r/kwb.utils",
+    "via": ["kwb.dygraph", "kwb.event"],
+    "from": "kwb.dygraph"
   },
   {
     "package": "kwb.utils",
