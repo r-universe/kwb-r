@@ -6222,19 +6222,7 @@
   {
     "package": "kwb.utils",
     "url": "https://github.com/kwb-r/kwb.utils",
-    "via": ["kwb.mia.evalCritO2", "kwb.base", "kwb.event"],
-    "from": "kwb.mia.evalCritO2"
-  },
-  {
-    "package": "kwb.utils",
-    "url": "https://github.com/kwb-r/kwb.utils",
     "via": ["kwb.mia.evalCritO2", "kwb.base", "kwb.event", "kwb.datetime"],
-    "from": "kwb.mia.evalCritO2"
-  },
-  {
-    "package": "kwb.utils",
-    "url": "https://github.com/kwb-r/kwb.utils",
-    "via": ["kwb.mia.evalCritO2", "kwb.base", "kwb.event", "kwb.plot"],
     "from": "kwb.mia.evalCritO2"
   },
   {
@@ -6246,13 +6234,25 @@
   {
     "package": "kwb.utils",
     "url": "https://github.com/kwb-r/kwb.utils",
-    "via": ["kwb.mia.evalCritO2", "kwb.base", "kwb.plot"],
+    "via": ["kwb.mia.evalCritO2", "kwb.base", "kwb.event", "kwb.plot"],
+    "from": "kwb.mia.evalCritO2"
+  },
+  {
+    "package": "kwb.utils",
+    "url": "https://github.com/kwb-r/kwb.utils",
+    "via": ["kwb.mia.evalCritO2", "kwb.base", "kwb.event"],
     "from": "kwb.mia.evalCritO2"
   },
   {
     "package": "kwb.utils",
     "url": "https://github.com/kwb-r/kwb.utils",
     "via": ["kwb.mia.evalCritO2", "kwb.base", "kwb.plot", "kwb.datetime"],
+    "from": "kwb.mia.evalCritO2"
+  },
+  {
+    "package": "kwb.utils",
+    "url": "https://github.com/kwb-r/kwb.utils",
+    "via": ["kwb.mia.evalCritO2", "kwb.base", "kwb.plot"],
     "from": "kwb.mia.evalCritO2"
   },
   {
