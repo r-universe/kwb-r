@@ -103,6 +103,11 @@
 	url = https://github.com/KWB-R/kwb.demeau
 	shallow = true
 	registered = true
+[submodule "kwb.dswt"]
+	path = kwb.dswt
+	url = https://github.com/KWB-R/kwb.dswt
+	shallow = true
+	registered = true
 [submodule "kwb.dwa.m150"]
 	path = kwb.dwa.m150
 	url = https://github.com/KWB-R/kwb.dwa.m150
