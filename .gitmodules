@@ -18,11 +18,6 @@
 	url = https://github.com/KWB-R/dwc.ar4gw
 	shallow = true
 	registered = true
-[submodule "dwc.wells"]
-	path = dwc.wells
-	url = https://github.com/KWB-R/dwc.wells
-	shallow = true
-	registered = true
 [submodule "fakin.path.app"]
 	path = fakin.path.app
 	url = https://github.com/KWB-R/fakin.path.app
