@@ -2656,6 +2656,12 @@
   {
     "package": "kwb.datetime",
     "url": "https://github.com/kwb-r/kwb.datetime",
+    "via": ["kwbGompitz", "kwb.plot"],
+    "from": "kwbGompitz"
+  },
+  {
+    "package": "kwb.datetime",
+    "url": "https://github.com/kwb-r/kwb.datetime",
     "via": ["qmra.db", "kwb.db"],
     "from": "qmra.db"
   },
@@ -5234,6 +5240,12 @@
     "url": "https://github.com/kwb-r/kwb.plot",
     "via": ["kwb.swmm", "kwb.event"],
     "from": "kwb.swmm"
+  },
+  {
+    "package": "kwb.plot",
+    "url": "https://github.com/kwb-r/kwb.plot",
+    "via": ["kwbGompitz"],
+    "from": "kwbGompitz"
   },
   {
     "package": "kwb.prep",
@@ -10717,6 +10729,24 @@
     "url": "https://github.com/KWB-R/kwb.utils",
     "via": ["kwb.wtaq"],
     "from": "kwb.wtaq"
+  },
+  {
+    "package": "kwb.utils",
+    "url": "https://github.com/kwb-r/kwb.utils",
+    "via": ["kwbGompitz", "kwb.plot", "kwb.datetime"],
+    "from": "kwbGompitz"
+  },
+  {
+    "package": "kwb.utils",
+    "url": "https://github.com/kwb-r/kwb.utils",
+    "via": ["kwbGompitz", "kwb.plot"],
+    "from": "kwbGompitz"
+  },
+  {
+    "package": "kwb.utils",
+    "url": "https://github.com/kwb-r/kwb.utils",
+    "via": ["kwbGompitz"],
+    "from": "kwbGompitz"
   },
   {
     "package": "kwb.utils",
