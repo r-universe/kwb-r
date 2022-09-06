@@ -1300,6 +1300,12 @@
   {
     "package": "kwb.datetime",
     "url": "https://github.com/kwb-r/kwb.datetime",
+    "via": ["kwb.impetus", "wasserportal"],
+    "from": "kwb.impetus"
+  },
+  {
+    "package": "kwb.datetime",
+    "url": "https://github.com/kwb-r/kwb.datetime",
     "via": ["kwb.kuras", "kwb.kuras.db", "kwb.db"],
     "from": "kwb.kuras"
   },
@@ -4401,6 +4407,18 @@
   {
     "package": "kwb.orcid",
     "url": "https://github.com/kwb-r/kwb.orcid",
+    "via": ["kwb.impetus", "kwb.pkgbuild"],
+    "from": "kwb.impetus"
+  },
+  {
+    "package": "kwb.orcid",
+    "url": "https://github.com/kwb-r/kwb.orcid",
+    "via": ["kwb.impetus", "wasserportal", "kwb.pkgbuild"],
+    "from": "kwb.impetus"
+  },
+  {
+    "package": "kwb.orcid",
+    "url": "https://github.com/kwb-r/kwb.orcid",
     "via": ["kwb.package", "pkgmeta", "kwb.pkgstatus", "kwb.pkgbuild"],
     "from": "kwb.package"
   },
@@ -4536,6 +4554,18 @@
     "url": "https://github.com/kwb-r/kwb.pkgbuild",
     "via": ["kwb.geosalz", "wasserportal"],
     "from": "kwb.geosalz"
+  },
+  {
+    "package": "kwb.pkgbuild",
+    "url": "https://github.com/kwb-r/kwb.pkgbuild",
+    "via": ["kwb.impetus"],
+    "from": "kwb.impetus"
+  },
+  {
+    "package": "kwb.pkgbuild",
+    "url": "https://github.com/kwb-r/kwb.pkgbuild",
+    "via": ["kwb.impetus", "wasserportal"],
+    "from": "kwb.impetus"
   },
   {
     "package": "kwb.pkgbuild",
@@ -6882,6 +6912,36 @@
     "url": "https://github.com/kwb-r/kwb.utils",
     "via": ["kwb.hydrus1d"],
     "from": "kwb.hydrus1d"
+  },
+  {
+    "package": "kwb.utils",
+    "url": "https://github.com/kwb-r/kwb.utils",
+    "via": ["kwb.impetus"],
+    "from": "kwb.impetus"
+  },
+  {
+    "package": "kwb.utils",
+    "url": "https://github.com/kwb-r/kwb.utils",
+    "via": ["kwb.impetus", "kwb.pkgbuild"],
+    "from": "kwb.impetus"
+  },
+  {
+    "package": "kwb.utils",
+    "url": "https://github.com/kwb-r/kwb.utils",
+    "via": ["kwb.impetus", "wasserportal", "kwb.datetime"],
+    "from": "kwb.impetus"
+  },
+  {
+    "package": "kwb.utils",
+    "url": "https://github.com/kwb-r/kwb.utils",
+    "via": ["kwb.impetus", "wasserportal", "kwb.pkgbuild"],
+    "from": "kwb.impetus"
+  },
+  {
+    "package": "kwb.utils",
+    "url": "https://github.com/kwb-r/kwb.utils",
+    "via": ["kwb.impetus", "wasserportal"],
+    "from": "kwb.impetus"
   },
   {
     "package": "kwb.utils",
@@ -11807,6 +11867,18 @@
   {
     "package": "rorcid",
     "url": "https://github.com/ropensci/rorcid",
+    "via": ["kwb.impetus", "kwb.pkgbuild", "kwb.orcid"],
+    "from": "kwb.impetus"
+  },
+  {
+    "package": "rorcid",
+    "url": "https://github.com/ropensci/rorcid",
+    "via": ["kwb.impetus", "wasserportal", "kwb.pkgbuild", "kwb.orcid"],
+    "from": "kwb.impetus"
+  },
+  {
+    "package": "rorcid",
+    "url": "https://github.com/ropensci/rorcid",
     "via": ["kwb.orcid"],
     "from": "kwb.orcid"
   },
@@ -11871,6 +11943,13 @@
     "url": "https://github.com/KWB-R/wasserportal",
     "via": ["kwb.geosalz"],
     "from": "kwb.geosalz"
+  },
+  {
+    "package": "wasserportal",
+    "url": "https://github.com/kwb-r/wasserportal",
+    "via": ["kwb.impetus"],
+    "branch": "dev",
+    "from": "kwb.impetus"
   },
   {
     "package": "wordcloud2",
