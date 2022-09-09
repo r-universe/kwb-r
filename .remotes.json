@@ -3106,6 +3106,13 @@
     "from": "kwb.flusshygiene.app"
   },
   {
+    "package": "kwb.dwd",
+    "url": "https://github.com/kwb-r/kwb.dwd",
+    "via": ["kwb.impetus"],
+    "branch": "dev",
+    "from": "kwb.impetus"
+  },
+  {
     "package": "kwb.en13508.2",
     "url": "https://github.com/kwb-r/kwb.en13508.2",
     "via": ["kwb.dswt", "kwb.read"],
@@ -6912,6 +6919,12 @@
     "url": "https://github.com/kwb-r/kwb.utils",
     "via": ["kwb.hydrus1d"],
     "from": "kwb.hydrus1d"
+  },
+  {
+    "package": "kwb.utils",
+    "url": "https://github.com/kwb-r/kwb.utils",
+    "via": ["kwb.impetus", "kwb.dwd"],
+    "from": "kwb.impetus"
   },
   {
     "package": "kwb.utils",
