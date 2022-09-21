@@ -6713,6 +6713,12 @@
   {
     "package": "kwb.utils",
     "url": "https://github.com/kwb-r/kwb.utils",
+    "via": ["kwb.fisbroker"],
+    "from": "kwb.fisbroker"
+  },
+  {
+    "package": "kwb.utils",
+    "url": "https://github.com/kwb-r/kwb.utils",
     "via": ["kwb.flusshygiene"],
     "from": "kwb.flusshygiene"
   },
