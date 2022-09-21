@@ -158,6 +158,11 @@
 	url = https://github.com/KWB-R/kwb.file
 	shallow = true
 	registered = true
+[submodule "kwb.fisbroker"]
+	path = kwb.fisbroker
+	url = https://github.com/KWB-R/kwb.fisbroker
+	shallow = true
+	registered = true
 [submodule "kwb.flusshygiene"]
 	path = kwb.flusshygiene
 	url = https://github.com/KWB-R/kwb.flusshygiene
@@ -441,6 +446,11 @@
 [submodule "kwb.wtaq"]
 	path = kwb.wtaq
 	url = https://github.com/KWB-R/kwb.wtaq
+	shallow = true
+	registered = true
+[submodule "kwbGompitz"]
+	path = kwbGompitz
+	url = https://github.com/KWB-R/kwbGompitz
 	shallow = true
 	registered = true
 [submodule "pkgmeta"]

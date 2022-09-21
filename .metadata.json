@@ -93,6 +93,9 @@
     "package": "kwb.file"
   },
   {
+    "package": "kwb.fisbroker"
+  },
+  {
     "package": "kwb.flusshygiene"
   },
   {
@@ -263,6 +266,9 @@
   },
   {
     "package": "kwb.wtaq"
+  },
+  {
+    "package": "kwbGompitz"
   },
   {
     "package": "pkgmeta"
