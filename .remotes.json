@@ -3115,7 +3115,6 @@
     "package": "kwb.dwd",
     "url": "https://github.com/kwb-r/kwb.dwd",
     "via": ["kwb.impetus"],
-    "branch": "dev",
     "from": "kwb.impetus"
   },
   {
