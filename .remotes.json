@@ -4407,6 +4407,12 @@
   {
     "package": "kwb.orcid",
     "url": "https://github.com/kwb-r/kwb.orcid",
+    "via": ["kwb.fisbroker", "kwb.pkgbuild"],
+    "from": "kwb.fisbroker"
+  },
+  {
+    "package": "kwb.orcid",
+    "url": "https://github.com/kwb-r/kwb.orcid",
     "via": ["kwb.geosalz", "kwb.pkgbuild"],
     "from": "kwb.geosalz"
   },
@@ -4554,6 +4560,12 @@
     "url": "https://github.com/kwb-r/kwb.pathdict",
     "via": ["kwb.read", "kwb.fakin"],
     "from": "kwb.read"
+  },
+  {
+    "package": "kwb.pkgbuild",
+    "url": "https://github.com/kwb-r/kwb.pkgbuild",
+    "via": ["kwb.fisbroker"],
+    "from": "kwb.fisbroker"
   },
   {
     "package": "kwb.pkgbuild",
@@ -6725,6 +6737,12 @@
     "package": "kwb.utils",
     "url": "https://github.com/kwb-r/kwb.utils",
     "via": ["kwb.fisbroker"],
+    "from": "kwb.fisbroker"
+  },
+  {
+    "package": "kwb.utils",
+    "url": "https://github.com/kwb-r/kwb.utils",
+    "via": ["kwb.fisbroker", "kwb.pkgbuild"],
     "from": "kwb.fisbroker"
   },
   {
@@ -11899,6 +11917,12 @@
     "url": "https://github.com/vh-d/r2r",
     "via": ["qmra.db", "kwb.db", "odbc32"],
     "from": "qmra.db"
+  },
+  {
+    "package": "rorcid",
+    "url": "https://github.com/ropensci/rorcid",
+    "via": ["kwb.fisbroker", "kwb.pkgbuild", "kwb.orcid"],
+    "from": "kwb.fisbroker"
   },
   {
     "package": "rorcid",
