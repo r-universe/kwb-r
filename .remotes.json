@@ -3102,6 +3102,12 @@
   {
     "package": "kwb.dwd",
     "url": "https://github.com/kwb-r/kwb.dwd",
+    "via": ["flextreat.hydrus1d"],
+    "from": "flextreat.hydrus1d"
+  },
+  {
+    "package": "kwb.dwd",
+    "url": "https://github.com/kwb-r/kwb.dwd",
     "via": ["ibathwater"],
     "from": "ibathwater"
   },
@@ -5501,6 +5507,12 @@
     "via": ["fhpredict"],
     "branch": "v0.5.0",
     "from": "fhpredict"
+  },
+  {
+    "package": "kwb.utils",
+    "url": "https://github.com/kwb-r/kwb.utils",
+    "via": ["flextreat.hydrus1d", "kwb.dwd"],
+    "from": "flextreat.hydrus1d"
   },
   {
     "package": "kwb.utils",
