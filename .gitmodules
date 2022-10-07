@@ -528,6 +528,11 @@
 	url = https://github.com/ropensci/rorcid
 	shallow = true
 	registered = false
+[submodule "sftp"]
+	path = sftp
+	url = https://github.com/stenevang/sftp
+	shallow = true
+	registered = false
 [submodule "swmmr"]
 	path = swmmr
 	url = https://github.com/hsonne/swmmr

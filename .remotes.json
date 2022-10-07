@@ -107,20 +107,6 @@
   {
     "package": "RODBC",
     "url": "https://github.com/cran/RODBC",
-    "via": ["kwb.geosalz", "geosalz.phreeqc", "kwb.base", "kwb.db"],
-    "branch": "1.3-16",
-    "from": "kwb.geosalz"
-  },
-  {
-    "package": "RODBC",
-    "url": "https://github.com/cran/RODBC",
-    "via": ["kwb.geosalz", "kwb.base", "kwb.db"],
-    "branch": "1.3-16",
-    "from": "kwb.geosalz"
-  },
-  {
-    "package": "RODBC",
-    "url": "https://github.com/cran/RODBC",
     "via": ["kwb.kuras", "kwb.kuras.db", "kwb.db"],
     "branch": "1.3-16",
     "from": "kwb.kuras"
@@ -3780,6 +3766,12 @@
   {
     "package": "kwb.file",
     "url": "https://github.com/kwb-r/kwb.file",
+    "via": ["kwb.geosalz", "kwb.nextcloud"],
+    "from": "kwb.geosalz"
+  },
+  {
+    "package": "kwb.file",
+    "url": "https://github.com/kwb-r/kwb.file",
     "via": ["kwb.infoworks", "kwb.nextcloud"],
     "from": "kwb.infoworks"
   },
@@ -4343,6 +4335,12 @@
     "via": ["kwb.budget"],
     "branch": "dev",
     "from": "kwb.budget"
+  },
+  {
+    "package": "kwb.nextcloud",
+    "url": "https://github.com/KWB-R/kwb.nextcloud",
+    "via": ["kwb.geosalz"],
+    "from": "kwb.geosalz"
   },
   {
     "package": "kwb.nextcloud",
@@ -6887,6 +6885,18 @@
     "package": "kwb.utils",
     "url": "https://github.com/kwb-r/kwb.utils",
     "via": ["kwb.geosalz", "kwb.base"],
+    "from": "kwb.geosalz"
+  },
+  {
+    "package": "kwb.utils",
+    "url": "https://github.com/kwb-r/kwb.utils",
+    "via": ["kwb.geosalz", "kwb.nextcloud", "kwb.file"],
+    "from": "kwb.geosalz"
+  },
+  {
+    "package": "kwb.utils",
+    "url": "https://github.com/kwb-r/kwb.utils",
+    "via": ["kwb.geosalz", "kwb.nextcloud"],
     "from": "kwb.geosalz"
   },
   {
@@ -11983,6 +11993,12 @@
     "url": "https://github.com/kwb-r/sema.berlin.utils",
     "via": ["dwc.wells"],
     "from": "dwc.wells"
+  },
+  {
+    "package": "sftp",
+    "url": "https://github.com/stenevang/sftp",
+    "via": ["kwb.geosalz"],
+    "from": "kwb.geosalz"
   },
   {
     "package": "swmmr",
