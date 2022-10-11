@@ -3766,12 +3766,6 @@
   {
     "package": "kwb.file",
     "url": "https://github.com/kwb-r/kwb.file",
-    "via": ["kwb.geosalz", "kwb.nextcloud"],
-    "from": "kwb.geosalz"
-  },
-  {
-    "package": "kwb.file",
-    "url": "https://github.com/kwb-r/kwb.file",
     "via": ["kwb.infoworks", "kwb.nextcloud"],
     "from": "kwb.infoworks"
   },
@@ -4335,12 +4329,6 @@
     "via": ["kwb.budget"],
     "branch": "dev",
     "from": "kwb.budget"
-  },
-  {
-    "package": "kwb.nextcloud",
-    "url": "https://github.com/KWB-R/kwb.nextcloud",
-    "via": ["kwb.geosalz"],
-    "from": "kwb.geosalz"
   },
   {
     "package": "kwb.nextcloud",
@@ -6885,18 +6873,6 @@
     "package": "kwb.utils",
     "url": "https://github.com/kwb-r/kwb.utils",
     "via": ["kwb.geosalz", "kwb.base"],
-    "from": "kwb.geosalz"
-  },
-  {
-    "package": "kwb.utils",
-    "url": "https://github.com/kwb-r/kwb.utils",
-    "via": ["kwb.geosalz", "kwb.nextcloud", "kwb.file"],
-    "from": "kwb.geosalz"
-  },
-  {
-    "package": "kwb.utils",
-    "url": "https://github.com/kwb-r/kwb.utils",
-    "via": ["kwb.geosalz", "kwb.nextcloud"],
     "from": "kwb.geosalz"
   },
   {
