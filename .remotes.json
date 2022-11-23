@@ -4172,6 +4172,12 @@
     "from": "kwb.swmm"
   },
   {
+    "package": "kwb.fisbroker",
+    "url": "https://github.com/kwb-r/kwb.fisbroker",
+    "via": ["kwb.impetus"],
+    "from": "kwb.impetus"
+  },
+  {
     "package": "kwb.flusshygiene",
     "url": "https://github.com/kwb-r/kwb.flusshygiene",
     "via": ["fhpredict"],
@@ -6939,6 +6945,12 @@
     "package": "kwb.utils",
     "url": "https://github.com/kwb-r/kwb.utils",
     "via": ["kwb.impetus", "kwb.dwd"],
+    "from": "kwb.impetus"
+  },
+  {
+    "package": "kwb.utils",
+    "url": "https://github.com/kwb-r/kwb.utils",
+    "via": ["kwb.impetus", "kwb.fisbroker"],
     "from": "kwb.impetus"
   },
   {
