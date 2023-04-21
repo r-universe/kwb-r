@@ -4346,6 +4346,7 @@
     "package": "kwb.nextcloud",
     "url": "https://github.com/KWB-R/kwb.nextcloud",
     "via": ["kwb.geosalz"],
+    "branch": "dev",
     "from": "kwb.geosalz"
   },
   {
