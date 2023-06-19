@@ -23,11 +23,6 @@
 	url = https://github.com/KWB-R/dwc.wells
 	shallow = true
 	registered = true
-[submodule "fakin.path.app"]
-	path = fakin.path.app
-	url = https://github.com/KWB-R/fakin.path.app
-	shallow = true
-	registered = true
 [submodule "fhpredict"]
 	path = fhpredict
 	url = https://github.com/KWB-R/fhpredict
@@ -318,11 +313,6 @@
 	url = https://github.com/KWB-R/kwb.package
 	shallow = true
 	registered = true
-[submodule "kwb.pathdict"]
-	path = kwb.pathdict
-	url = https://github.com/KWB-R/kwb.pathdict
-	shallow = true
-	registered = true
 [submodule "kwb.pilot"]
 	path = kwb.pilot
 	url = https://github.com/KWB-R/kwb.pilot
@@ -544,3 +534,9 @@
 	url = https://github.com/Lchiffon/wordcloud2
 	shallow = true
 	registered = false
+[submodule "kwb.pathdict"]
+	path = kwb.pathdict
+	url = https://github.com/KWB-R/kwb.pathdict
+[submodule "fakin.path.app"]
+	path = fakin.path.app
+	url = https://github.com/KWB-R/fakin.path.app
