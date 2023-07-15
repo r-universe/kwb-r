@@ -5776,12 +5776,6 @@
   {
     "package": "kwb.utils",
     "url": "https://github.com/kwb-r/kwb.utils",
-    "via": ["kwb.code"],
-    "from": "kwb.code"
-  },
-  {
-    "package": "kwb.utils",
-    "url": "https://github.com/kwb-r/kwb.utils",
     "via": ["kwb.context"],
     "from": "kwb.context"
   },
