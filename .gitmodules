@@ -2,12 +2,27 @@
 	path = .registry
 	url = https://github.com/kwb-r/universe
 	branch = HEAD
+[submodule "RODBC"]
+	path = RODBC
+	url = https://github.com/cran/RODBC
+	branch = 1.3-16
+	registered = false
 [submodule "algoliar"]
 	path = algoliar
 	url = https://github.com/KWB-R/algoliar
 [submodule "aquanes.report"]
 	path = aquanes.report
 	url = https://github.com/KWB-R/aquanes.report
+[submodule "aws.s3"]
+	path = aws.s3
+	url = https://github.com/cloudyr/aws.s3
+	branch = v0.3.12
+	registered = false
+[submodule "codemetar"]
+	path = codemetar
+	url = https://github.com/ropensci/codemetar
+	branch = v0.3.0
+	registered = false
 [submodule "dwc.ar4gw"]
 	path = dwc.ar4gw
 	url = https://github.com/KWB-R/dwc.ar4gw
@@ -272,39 +287,6 @@
 [submodule "kwbGompitz"]
 	path = kwbGompitz
 	url = https://github.com/KWB-R/kwbGompitz
-[submodule "pkgmeta"]
-	path = pkgmeta
-	url = https://github.com/KWB-R/pkgmeta
-[submodule "qmra.db"]
-	path = qmra.db
-	url = https://github.com/KWB-R/qmra.db
-[submodule "r2q"]
-	path = r2q
-	url = https://github.com/KWB-R/r2q
-[submodule "sema.berlin.utils"]
-	path = sema.berlin.utils
-	url = https://github.com/KWB-R/sema.berlin.utils
-[submodule "urbanAnnualRunoff"]
-	path = urbanAnnualRunoff
-	url = https://github.com/KWB-R/urbanAnnualRunoff
-[submodule "wasserportal"]
-	path = wasserportal
-	url = https://github.com/KWB-R/wasserportal
-[submodule "RODBC"]
-	path = RODBC
-	url = https://github.com/cran/RODBC
-	branch = 1.3-16
-	registered = false
-[submodule "aws.s3"]
-	path = aws.s3
-	url = https://github.com/cloudyr/aws.s3
-	branch = v0.3.12
-	registered = false
-[submodule "codemetar"]
-	path = codemetar
-	url = https://github.com/ropensci/codemetar
-	branch = v0.3.0
-	registered = false
 [submodule "odbc32"]
 	path = odbc32
 	url = https://github.com/hsonne/odbc32
@@ -314,11 +296,20 @@
 	path = pathlist
 	url = https://github.com/hsonne/pathlist
 	registered = false
+[submodule "pkgmeta"]
+	path = pkgmeta
+	url = https://github.com/KWB-R/pkgmeta
 [submodule "pkgnet"]
 	path = pkgnet
 	url = https://github.com/uptake/pkgnet
 	branch = d1e974de299d46e71b082e027a71b8b254edc9b2
 	registered = false
+[submodule "qmra.db"]
+	path = qmra.db
+	url = https://github.com/KWB-R/qmra.db
+[submodule "r2q"]
+	path = r2q
+	url = https://github.com/KWB-R/r2q
 [submodule "r2r"]
 	path = r2r
 	url = https://github.com/vh-d/r2r
@@ -327,6 +318,9 @@
 	path = rorcid
 	url = https://github.com/ropensci/rorcid
 	registered = false
+[submodule "sema.berlin.utils"]
+	path = sema.berlin.utils
+	url = https://github.com/KWB-R/sema.berlin.utils
 [submodule "sftp"]
 	path = sftp
 	url = https://github.com/stenevang/sftp
@@ -336,6 +330,12 @@
 	url = https://github.com/hsonne/swmmr
 	branch = mydev
 	registered = false
+[submodule "urbanAnnualRunoff"]
+	path = urbanAnnualRunoff
+	url = https://github.com/KWB-R/urbanAnnualRunoff
+[submodule "wasserportal"]
+	path = wasserportal
+	url = https://github.com/KWB-R/wasserportal
 [submodule "wordcloud2"]
 	path = wordcloud2
 	url = https://github.com/Lchiffon/wordcloud2
