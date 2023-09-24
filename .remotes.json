@@ -10567,18 +10567,6 @@
     "from": "wasserportal"
   },
   {
-    "package": "kwb.utils",
-    "url": "https://github.com/kwb-r/kwb.utils",
-    "via": ["wasserportal", "kwb.pkgbuild"],
-    "from": "wasserportal"
-  },
-  {
-    "package": "kwb.utils",
-    "url": "https://github.com/kwb-r/kwb.utils",
-    "via": ["wasserportal"],
-    "from": "wasserportal"
-  },
-  {
     "package": "kwb.vs2dh",
     "url": "https://github.com/kwb-r/kwb.vs2dh",
     "via": ["kwb.demeau"],
