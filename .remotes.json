@@ -9226,12 +9226,6 @@
   {
     "package": "kwb.utils",
     "url": "https://github.com/kwb-r/kwb.utils",
-    "via": ["kwb.plot"],
-    "from": "kwb.plot"
-  },
-  {
-    "package": "kwb.utils",
-    "url": "https://github.com/kwb-r/kwb.utils",
     "via": ["kwb.prep", "kwb.code", "kwb.file"],
     "from": "kwb.prep"
   },
