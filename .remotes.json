@@ -30,13 +30,6 @@
   {
     "package": "RODBC",
     "url": "https://github.com/cran/RODBC",
-    "via": ["kwb.db"],
-    "branch": "1.3-16",
-    "from": "kwb.db"
-  },
-  {
-    "package": "RODBC",
-    "url": "https://github.com/cran/RODBC",
     "via": ["kwb.demeau", "kwb.db"],
     "branch": "1.3-16",
     "from": "kwb.demeau"
@@ -5681,12 +5674,6 @@
     "package": "kwb.utils",
     "url": "https://github.com/kwb-r/kwb.utils",
     "via": ["kwb.db", "kwb.datetime"],
-    "from": "kwb.db"
-  },
-  {
-    "package": "kwb.utils",
-    "url": "https://github.com/kwb-r/kwb.utils",
-    "via": ["kwb.db"],
     "from": "kwb.db"
   },
   {
