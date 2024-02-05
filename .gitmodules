@@ -1,6 +1,6 @@
 [submodule ".registry"]
 	path = .registry
-	url = https://github.com/kwb-r/universe
+	url = https://github.com/kwb-r/kwb-r.r-universe.dev
 	branch = HEAD
 [submodule "RODBC"]
 	path = RODBC
