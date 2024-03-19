@@ -2470,12 +2470,6 @@
   {
     "package": "kwb.datetime",
     "url": "https://github.com/kwb-r/kwb.datetime",
-    "via": ["kwb.swmm", "kwb.event", "kwb.plot"],
-    "from": "kwb.swmm"
-  },
-  {
-    "package": "kwb.datetime",
-    "url": "https://github.com/kwb-r/kwb.datetime",
     "via": ["kwb.vs2dh", "kwb.db"],
     "from": "kwb.vs2dh"
   },
@@ -10013,43 +10007,7 @@
   {
     "package": "kwb.utils",
     "url": "https://github.com/kwb-r/kwb.utils",
-    "via": ["kwb.swmm", "kwb.event"],
-    "from": "kwb.swmm"
-  },
-  {
-    "package": "kwb.utils",
-    "url": "https://github.com/kwb-r/kwb.utils",
     "via": ["kwb.swmm", "kwb.event", "kwb.datetime"],
-    "from": "kwb.swmm"
-  },
-  {
-    "package": "kwb.utils",
-    "url": "https://github.com/kwb-r/kwb.utils",
-    "via": ["kwb.swmm", "kwb.event", "kwb.plot"],
-    "from": "kwb.swmm"
-  },
-  {
-    "package": "kwb.utils",
-    "url": "https://github.com/kwb-r/kwb.utils",
-    "via": ["kwb.swmm", "kwb.event", "kwb.plot", "kwb.datetime"],
-    "from": "kwb.swmm"
-  },
-  {
-    "package": "kwb.utils",
-    "url": "https://github.com/kwb-r/kwb.utils",
-    "via": ["kwb.swmm", "kwb.nextcloud", "kwb.file"],
-    "from": "kwb.swmm"
-  },
-  {
-    "package": "kwb.utils",
-    "url": "https://github.com/kwb-r/kwb.utils",
-    "via": ["kwb.swmm", "kwb.nextcloud"],
-    "from": "kwb.swmm"
-  },
-  {
-    "package": "kwb.utils",
-    "url": "https://github.com/kwb-r/kwb.utils",
-    "via": ["kwb.swmm"],
     "from": "kwb.swmm"
   },
   {
@@ -11285,7 +11243,7 @@
     "package": "swmmr",
     "url": "https://github.com/hsonne/swmmr",
     "via": ["kwb.swmm"],
-    "branch": "mydev",
+    "branch": "dev",
     "from": "kwb.swmm"
   },
   {
