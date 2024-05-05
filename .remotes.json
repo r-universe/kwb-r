@@ -8975,18 +8975,6 @@
   {
     "package": "kwb.utils",
     "url": "https://github.com/kwb-r/kwb.utils",
-    "via": ["kwb.package", "pkgmeta", "kwb.pkgstatus", "kwb.pkgbuild"],
-    "from": "kwb.package"
-  },
-  {
-    "package": "kwb.utils",
-    "url": "https://github.com/kwb-r/kwb.utils",
-    "via": ["kwb.package", "pkgmeta"],
-    "from": "kwb.package"
-  },
-  {
-    "package": "kwb.utils",
-    "url": "https://github.com/kwb-r/kwb.utils",
     "via": ["kwb.pathdict", "kwb.file"],
     "branch": "v0.6.0",
     "from": "kwb.pathdict"
@@ -10604,6 +10592,13 @@
     "via": ["qmra.db", "kwb.db"],
     "branch": "r3.0.0",
     "from": "qmra.db"
+  },
+  {
+    "package": "packrat",
+    "url": "https://github.com/rstudio/packrat",
+    "via": ["kwb.package", "pkgmeta"],
+    "branch": "v0.7.0",
+    "from": "kwb.package"
   },
   {
     "package": "packrat",
