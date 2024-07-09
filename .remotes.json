@@ -9940,6 +9940,13 @@
   },
   {
     "package": "kwb.utils",
+    "url": "https://github.com/KWB-R/kwb.utils",
+    "via": ["kwb.rect"],
+    "branch": "dev",
+    "from": "kwb.rect"
+  },
+  {
+    "package": "kwb.utils",
     "url": "https://github.com/kwb-r/kwb.utils",
     "via": ["kwb.resilience", "kwb.event"],
     "from": "kwb.resilience"
