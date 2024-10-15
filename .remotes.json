@@ -8127,12 +8127,6 @@
   {
     "package": "kwb.utils",
     "url": "https://github.com/kwb-r/kwb.utils",
-    "via": ["kwb.nextcloud"],
-    "from": "kwb.nextcloud"
-  },
-  {
-    "package": "kwb.utils",
-    "url": "https://github.com/kwb-r/kwb.utils",
     "via": ["kwb.odm", "kwb.datetime"],
     "from": "kwb.odm"
   },
