@@ -47,6 +47,12 @@
 [submodule "keys.lid"]
 	path = keys.lid
 	url = https://github.com/KWB-R/keys.lid
+[submodule "kwb.1dbear"]
+	path = kwb.1dbear
+	url = https://github.com/KWB-R/kwb.1dbear
+[submodule "kwb.BerlinWaterModel"]
+	path = kwb.BerlinWaterModel
+	url = https://github.com/KWB-R/kwb.BerlinWaterModel
 [submodule "kwb.abimo"]
 	path = kwb.abimo
 	url = https://github.com/KWB-R/kwb.abimo
@@ -236,6 +242,9 @@
 [submodule "kwb.quantum"]
 	path = kwb.quantum
 	url = https://github.com/KWB-R/kwb.quantum
+[submodule "kwb.rabimo"]
+	path = kwb.rabimo
+	url = https://github.com/KWB-R/kwb.rabimo
 [submodule "kwb.rain"]
 	path = kwb.rain
 	url = https://github.com/KWB-R/kwb.rain
@@ -245,6 +254,9 @@
 [submodule "kwb.readxl"]
 	path = kwb.readxl
 	url = https://github.com/KWB-R/kwb.readxl
+[submodule "kwb.rect"]
+	path = kwb.rect
+	url = https://github.com/KWB-R/kwb.rect
 [submodule "kwb.resilience"]
 	path = kwb.resilience
 	url = https://github.com/KWB-R/kwb.resilience
@@ -281,6 +293,9 @@
 [submodule "kwb.vs2dh"]
 	path = kwb.vs2dh
 	url = https://github.com/KWB-R/kwb.vs2dh
+[submodule "kwb.waterParcel"]
+	path = kwb.waterParcel
+	url = https://github.com/KWB-R/kwb.waterParcel
 [submodule "kwb.wtaq"]
 	path = kwb.wtaq
 	url = https://github.com/KWB-R/kwb.wtaq
