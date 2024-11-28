@@ -347,8 +347,8 @@
 	registered = false
 [submodule "swmmr"]
 	path = swmmr
-	url = https://github.com/hsonne/swmmr
-	branch = mydev
+	url = https://github.com/dleutlant/swmmr
+	branch = dev
 	registered = false
 [submodule "urbanAnnualRunoff"]
 	path = urbanAnnualRunoff
