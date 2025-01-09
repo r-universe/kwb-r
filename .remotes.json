@@ -2911,6 +2911,7 @@
     "package": "kwb.dwd",
     "url": "https://github.com/kwb-r/kwb.dwd",
     "via": ["flextreat.hydrus1d"],
+    "branch": "get-rid-of-rgdal",
     "from": "flextreat.hydrus1d"
   },
   {
@@ -4186,6 +4187,12 @@
   {
     "package": "kwb.orcid",
     "url": "https://github.com/kwb-r/kwb.orcid",
+    "via": ["flextreat.hydrus1d", "kwb.pkgbuild"],
+    "from": "flextreat.hydrus1d"
+  },
+  {
+    "package": "kwb.orcid",
+    "url": "https://github.com/kwb-r/kwb.orcid",
     "via": ["kwb.geosalz", "kwb.pkgbuild"],
     "from": "kwb.geosalz"
   },
@@ -4321,6 +4328,12 @@
     "url": "https://github.com/kwb-r/kwb.pathdict",
     "via": ["kwb.rain", "kwb.read", "kwb.fakin"],
     "from": "kwb.rain"
+  },
+  {
+    "package": "kwb.pkgbuild",
+    "url": "https://github.com/kwb-r/kwb.pkgbuild",
+    "via": ["flextreat.hydrus1d"],
+    "from": "flextreat.hydrus1d"
   },
   {
     "package": "kwb.pkgbuild",
@@ -5231,18 +5244,6 @@
     "package": "kwb.utils",
     "url": "https://github.com/kwb-r/kwb.utils",
     "via": ["flextreat.hydrus1d", "kwb.dwd"],
-    "from": "flextreat.hydrus1d"
-  },
-  {
-    "package": "kwb.utils",
-    "url": "https://github.com/kwb-r/kwb.utils",
-    "via": ["flextreat.hydrus1d", "kwb.hydrus1d"],
-    "from": "flextreat.hydrus1d"
-  },
-  {
-    "package": "kwb.utils",
-    "url": "https://github.com/kwb-r/kwb.utils",
-    "via": ["flextreat.hydrus1d"],
     "from": "flextreat.hydrus1d"
   },
   {
@@ -11168,6 +11169,12 @@
     "url": "https://github.com/vh-d/r2r",
     "via": ["qmra.db", "kwb.db", "odbc32"],
     "from": "qmra.db"
+  },
+  {
+    "package": "rorcid",
+    "url": "https://github.com/ropensci/rorcid",
+    "via": ["flextreat.hydrus1d", "kwb.pkgbuild", "kwb.orcid"],
+    "from": "flextreat.hydrus1d"
   },
   {
     "package": "rorcid",
