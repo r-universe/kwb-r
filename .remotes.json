@@ -11250,14 +11250,14 @@
   },
   {
     "package": "swmmr",
-    "url": "https://github.com/hsonne/swmmr",
+    "url": "https://github.com/dleutnant/swmmr",
     "via": ["keys.lid", "kwb.swmm"],
-    "branch": "mydev",
+    "branch": "dev",
     "from": "keys.lid"
   },
   {
     "package": "swmmr",
-    "url": "https://github.com/hsonne/swmmr",
+    "url": "https://github.com/dleutnant/swmmr",
     "via": ["kwb.swmm"],
     "branch": "dev",
     "from": "kwb.swmm"
