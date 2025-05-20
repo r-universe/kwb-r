@@ -513,12 +513,6 @@
   {
     "package": "kwb.abimo",
     "url": "https://github.com/kwb-r/kwb.abimo",
-    "via": ["kwb.rabimo"],
-    "from": "kwb.rabimo"
-  },
-  {
-    "package": "kwb.abimo",
-    "url": "https://github.com/kwb-r/kwb.abimo",
     "via": ["urbanAnnualRunoff"],
     "from": "urbanAnnualRunoff"
   },
@@ -9323,7 +9317,7 @@
   {
     "package": "kwb.utils",
     "url": "https://github.com/kwb-r/kwb.utils",
-    "via": ["kwb.rabimo", "kwb.abimo"],
+    "via": ["kwb.rabimo"],
     "from": "kwb.rabimo"
   },
   {
