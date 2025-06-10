@@ -16,13 +16,6 @@
   {
     "package": "RODBC",
     "url": "https://github.com/cran/RODBC",
-    "via": ["geosalz.phreeqc", "kwb.base", "kwb.db"],
-    "branch": "1.3-16",
-    "from": "geosalz.phreeqc"
-  },
-  {
-    "package": "RODBC",
-    "url": "https://github.com/cran/RODBC",
     "via": ["kwb.base", "kwb.db"],
     "branch": "1.3-16",
     "from": "kwb.base"
@@ -815,30 +808,6 @@
     "package": "kwb.datetime",
     "url": "https://github.com/kwb-r/kwb.datetime",
     "via": ["geosalz.phreeqc", "kwb.base"],
-    "from": "geosalz.phreeqc"
-  },
-  {
-    "package": "kwb.datetime",
-    "url": "https://github.com/kwb-r/kwb.datetime",
-    "via": ["geosalz.phreeqc", "kwb.base", "kwb.db"],
-    "from": "geosalz.phreeqc"
-  },
-  {
-    "package": "kwb.datetime",
-    "url": "https://github.com/kwb-r/kwb.datetime",
-    "via": ["geosalz.phreeqc", "kwb.base", "kwb.event"],
-    "from": "geosalz.phreeqc"
-  },
-  {
-    "package": "kwb.datetime",
-    "url": "https://github.com/kwb-r/kwb.datetime",
-    "via": ["geosalz.phreeqc", "kwb.base", "kwb.event", "kwb.plot"],
-    "from": "geosalz.phreeqc"
-  },
-  {
-    "package": "kwb.datetime",
-    "url": "https://github.com/kwb-r/kwb.datetime",
-    "via": ["geosalz.phreeqc", "kwb.base", "kwb.plot"],
     "from": "geosalz.phreeqc"
   },
   {
@@ -4398,12 +4367,6 @@
   {
     "package": "kwb.plot",
     "url": "https://github.com/kwb-r/kwb.plot",
-    "via": ["geosalz.phreeqc", "kwb.base"],
-    "from": "geosalz.phreeqc"
-  },
-  {
-    "package": "kwb.plot",
-    "url": "https://github.com/kwb-r/kwb.plot",
     "via": ["keys.lid", "kwb.event"],
     "from": "keys.lid"
   },
@@ -5244,66 +5207,6 @@
     "package": "kwb.utils",
     "url": "https://github.com/kwb-r/kwb.utils",
     "via": ["geosalz.phreeqc", "kwb.base", "kwb.datetime"],
-    "from": "geosalz.phreeqc"
-  },
-  {
-    "package": "kwb.utils",
-    "url": "https://github.com/kwb-r/kwb.utils",
-    "via": ["geosalz.phreeqc", "kwb.base", "kwb.db", "kwb.datetime"],
-    "from": "geosalz.phreeqc"
-  },
-  {
-    "package": "kwb.utils",
-    "url": "https://github.com/kwb-r/kwb.utils",
-    "via": ["geosalz.phreeqc", "kwb.base", "kwb.db"],
-    "from": "geosalz.phreeqc"
-  },
-  {
-    "package": "kwb.utils",
-    "url": "https://github.com/kwb-r/kwb.utils",
-    "via": ["geosalz.phreeqc", "kwb.base", "kwb.event", "kwb.datetime"],
-    "from": "geosalz.phreeqc"
-  },
-  {
-    "package": "kwb.utils",
-    "url": "https://github.com/kwb-r/kwb.utils",
-    "via": ["geosalz.phreeqc", "kwb.base", "kwb.event", "kwb.plot", "kwb.datetime"],
-    "from": "geosalz.phreeqc"
-  },
-  {
-    "package": "kwb.utils",
-    "url": "https://github.com/kwb-r/kwb.utils",
-    "via": ["geosalz.phreeqc", "kwb.base", "kwb.event", "kwb.plot"],
-    "from": "geosalz.phreeqc"
-  },
-  {
-    "package": "kwb.utils",
-    "url": "https://github.com/kwb-r/kwb.utils",
-    "via": ["geosalz.phreeqc", "kwb.base", "kwb.event"],
-    "from": "geosalz.phreeqc"
-  },
-  {
-    "package": "kwb.utils",
-    "url": "https://github.com/kwb-r/kwb.utils",
-    "via": ["geosalz.phreeqc", "kwb.base", "kwb.plot", "kwb.datetime"],
-    "from": "geosalz.phreeqc"
-  },
-  {
-    "package": "kwb.utils",
-    "url": "https://github.com/kwb-r/kwb.utils",
-    "via": ["geosalz.phreeqc", "kwb.base", "kwb.plot"],
-    "from": "geosalz.phreeqc"
-  },
-  {
-    "package": "kwb.utils",
-    "url": "https://github.com/kwb-r/kwb.utils",
-    "via": ["geosalz.phreeqc", "kwb.base"],
-    "from": "geosalz.phreeqc"
-  },
-  {
-    "package": "kwb.utils",
-    "url": "https://github.com/kwb-r/kwb.utils",
-    "via": ["geosalz.phreeqc"],
     "from": "geosalz.phreeqc"
   },
   {
@@ -10734,6 +10637,12 @@
     "url": "https://github.com/hsonne/pathlist",
     "via": ["kwb.rain", "kwb.read", "kwb.fakin", "fakin.path.app"],
     "from": "kwb.rain"
+  },
+  {
+    "package": "phreeqc",
+    "url": "https://github.com/cran/phreeqc",
+    "via": ["geosalz.phreeqc"],
+    "from": "geosalz.phreeqc"
   },
   {
     "package": "pkgmeta",

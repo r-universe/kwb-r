@@ -316,6 +316,10 @@
 	path = pathlist
 	url = https://github.com/hsonne/pathlist
 	registered = false
+[submodule "phreeqc"]
+	path = phreeqc
+	url = https://github.com/cran/phreeqc
+	registered = false
 [submodule "pkgmeta"]
 	path = pkgmeta
 	url = https://github.com/KWB-R/pkgmeta
