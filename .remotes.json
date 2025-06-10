@@ -4078,7 +4078,6 @@
     "package": "kwb.nextcloud",
     "url": "https://github.com/KWB-R/kwb.nextcloud",
     "via": ["kwb.geosalz"],
-    "branch": "dev",
     "from": "kwb.geosalz"
   },
   {
@@ -10643,6 +10642,12 @@
     "url": "https://github.com/cran/phreeqc",
     "via": ["geosalz.phreeqc"],
     "from": "geosalz.phreeqc"
+  },
+  {
+    "package": "phreeqc",
+    "url": "https://github.com/cran/phreeqc",
+    "via": ["kwb.geosalz"],
+    "from": "kwb.geosalz"
   },
   {
     "package": "pkgmeta",
