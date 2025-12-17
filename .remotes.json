@@ -5301,6 +5301,12 @@
   {
     "package": "kwb.utils",
     "url": "https://github.com/kwb-r/kwb.utils",
+    "via": ["kwb.BerlinWaterModel.public"],
+    "from": "kwb.BerlinWaterModel.public"
+  },
+  {
+    "package": "kwb.utils",
+    "url": "https://github.com/kwb-r/kwb.utils",
     "via": ["kwb.abimo"],
     "from": "kwb.abimo"
   },
