@@ -50,9 +50,9 @@
 [submodule "kwb.1dbear"]
 	path = kwb.1dbear
 	url = https://github.com/KWB-R/kwb.1dbear
-[submodule "kwb.BerlinWaterModel"]
-	path = kwb.BerlinWaterModel
-	url = https://github.com/KWB-R/kwb.BerlinWaterModel
+[submodule "kwb.BerlinWaterModel.public"]
+	path = kwb.BerlinWaterModel.public
+	url = https://github.com/KWB-R/kwb.BerlinWaterModel.public
 [submodule "kwb.abimo"]
 	path = kwb.abimo
 	url = https://github.com/KWB-R/kwb.abimo
