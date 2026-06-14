@@ -38,6 +38,9 @@
 [submodule "kwb.BerlinWaterModel.public"]
 	path = kwb.BerlinWaterModel.public
 	url = https://github.com/KWB-R/kwb.BerlinWaterModel.public
+[submodule "kwb.CrowdWater"]
+	path = kwb.CrowdWater
+	url = https://github.com/KWB-R/kwb.CrowdWater
 [submodule "kwb.abimo"]
 	path = kwb.abimo
 	url = https://github.com/KWB-R/kwb.abimo
@@ -110,6 +113,9 @@
 [submodule "kwb.flusshygiene.app"]
 	path = kwb.flusshygiene.app
 	url = https://github.com/KWB-R/kwb.flusshygiene.app
+[submodule "kwb.geoportal"]
+	path = kwb.geoportal
+	url = https://github.com/KWB-R/kwb.geoportal
 [submodule "kwb.geosalz"]
 	path = kwb.geosalz
 	url = https://github.com/KWB-R/kwb.geosalz
@@ -233,6 +239,9 @@
 [submodule "kwb.rain"]
 	path = kwb.rain
 	url = https://github.com/KWB-R/kwb.rain
+[submodule "kwb.raindrop"]
+	path = kwb.raindrop
+	url = https://github.com/KWB-R/kwb.raindrop
 [submodule "kwb.read"]
 	path = kwb.read
 	url = https://github.com/KWB-R/kwb.read
@@ -257,6 +266,9 @@
 [submodule "kwb.swmm"]
 	path = kwb.swmm
 	url = https://github.com/KWB-R/kwb.swmm
+[submodule "kwb.tenders"]
+	path = kwb.tenders
+	url = https://github.com/KWB-R/kwb.tenders
 [submodule "kwb.test"]
 	path = kwb.test
 	url = https://github.com/KWB-R/kwb.test
