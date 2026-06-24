@@ -2,12 +2,21 @@
 	path = .registry
 	url = https://github.com/kwb-r/kwb-r.r-universe.dev
 	branch = HEAD
+[submodule "RODBC"]
+	path = RODBC
+	url = https://github.com/cran/RODBC
 [submodule "algoliar"]
 	path = algoliar
 	url = https://github.com/KWB-R/algoliar
 [submodule "aquanes.report"]
 	path = aquanes.report
 	url = https://github.com/KWB-R/aquanes.report
+[submodule "aws.s3"]
+	path = aws.s3
+	url = https://github.com/cloudyr/aws.s3
+[submodule "codemetar"]
+	path = codemetar
+	url = https://github.com/ropensci/codemetar
 [submodule "dwc.ar4gw"]
 	path = dwc.ar4gw
 	url = https://github.com/KWB-R/dwc.ar4gw
@@ -299,21 +308,45 @@
 [submodule "kwbGompitz"]
 	path = kwbGompitz
 	url = https://github.com/KWB-R/kwbGompitz
+[submodule "odbc32"]
+	path = odbc32
+	url = https://github.com/hsonne/odbc32
+[submodule "packrat"]
+	path = packrat
+	url = https://github.com/rstudio/packrat
+[submodule "pathlist"]
+	path = pathlist
+	url = https://github.com/hsonne/pathlist
+[submodule "phreeqc"]
+	path = phreeqc
+	url = https://github.com/cran/phreeqc
 [submodule "pkgmeta"]
 	path = pkgmeta
 	url = https://github.com/KWB-R/pkgmeta
+[submodule "pkgnet"]
+	path = pkgnet
+	url = https://github.com/uptake/pkgnet
 [submodule "qmra.db"]
 	path = qmra.db
 	url = https://github.com/KWB-R/qmra.db
 [submodule "r2q"]
 	path = r2q
 	url = https://github.com/KWB-R/r2q
+[submodule "rorcid"]
+	path = rorcid
+	url = https://github.com/ropensci/rorcid
 [submodule "sema.berlin.utils"]
 	path = sema.berlin.utils
 	url = https://github.com/KWB-R/sema.berlin.utils
+[submodule "swmmr"]
+	path = swmmr
+	url = https://github.com/hsonne/swmmr
 [submodule "urbanAnnualRunoff"]
 	path = urbanAnnualRunoff
 	url = https://github.com/KWB-R/urbanAnnualRunoff
 [submodule "wasserportal"]
 	path = wasserportal
 	url = https://github.com/KWB-R/wasserportal
+[submodule "wordcloud2"]
+	path = wordcloud2
+	url = https://github.com/Lchiffon/wordcloud2
