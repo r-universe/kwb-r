@@ -5,6 +5,7 @@
 [submodule "RODBC"]
 	path = RODBC
 	url = https://github.com/cran/RODBC
+	registered = false
 [submodule "algoliar"]
 	path = algoliar
 	url = https://github.com/KWB-R/algoliar
@@ -14,15 +15,20 @@
 [submodule "aws.s3"]
 	path = aws.s3
 	url = https://github.com/cloudyr/aws.s3
+	registered = false
 [submodule "codemetar"]
 	path = codemetar
 	url = https://github.com/ropensci/codemetar
+	registered = false
 [submodule "dwc.ar4gw"]
 	path = dwc.ar4gw
 	url = https://github.com/KWB-R/dwc.ar4gw
 [submodule "dwc.wells"]
 	path = dwc.wells
 	url = https://github.com/KWB-R/dwc.wells
+[submodule "ewex"]
+	path = ewex
+	url = https://github.com/KWB-R/ewex
 [submodule "fakin.path.app"]
 	path = fakin.path.app
 	url = https://github.com/KWB-R/fakin.path.app
@@ -38,6 +44,9 @@
 [submodule "ibathwater"]
 	path = ibathwater
 	url = https://github.com/KWB-R/ibathwater
+[submodule "iole"]
+	path = iole
+	url = https://github.com/KWB-R/iole
 [submodule "keys.lid"]
 	path = keys.lid
 	url = https://github.com/KWB-R/keys.lid
@@ -230,6 +239,9 @@
 [submodule "kwb.prep"]
 	path = kwb.prep
 	url = https://github.com/KWB-R/kwb.prep
+[submodule "kwb.promisces-emission-model"]
+	path = kwb.promisces-emission-model
+	url = https://github.com/KWB-R/kwb.promisces-emission-model
 [submodule "kwb.pubs"]
 	path = kwb.pubs
 	url = https://github.com/KWB-R/kwb.pubs
@@ -251,6 +263,9 @@
 [submodule "kwb.raindrop"]
 	path = kwb.raindrop
 	url = https://github.com/KWB-R/kwb.raindrop
+[submodule "kwb.raindrop.binaries"]
+	path = kwb.raindrop.binaries
+	url = https://github.com/KWB-R/kwb.raindrop.binaries
 [submodule "kwb.read"]
 	path = kwb.read
 	url = https://github.com/KWB-R/kwb.read
@@ -308,24 +323,32 @@
 [submodule "kwbGompitz"]
 	path = kwbGompitz
 	url = https://github.com/KWB-R/kwbGompitz
+[submodule "lakeRS"]
+	path = lakeRS
+	url = https://github.com/KWB-R/lakeRS
 [submodule "odbc32"]
 	path = odbc32
 	url = https://github.com/hsonne/odbc32
+	registered = false
 [submodule "packrat"]
 	path = packrat
 	url = https://github.com/rstudio/packrat
+	registered = false
 [submodule "pathlist"]
 	path = pathlist
 	url = https://github.com/hsonne/pathlist
+	registered = false
 [submodule "phreeqc"]
 	path = phreeqc
 	url = https://github.com/cran/phreeqc
+	registered = false
 [submodule "pkgmeta"]
 	path = pkgmeta
 	url = https://github.com/KWB-R/pkgmeta
 [submodule "pkgnet"]
 	path = pkgnet
 	url = https://github.com/uptake/pkgnet
+	registered = false
 [submodule "qmra.db"]
 	path = qmra.db
 	url = https://github.com/KWB-R/qmra.db
@@ -335,12 +358,14 @@
 [submodule "rorcid"]
 	path = rorcid
 	url = https://github.com/ropensci/rorcid
+	registered = false
 [submodule "sema.berlin.utils"]
 	path = sema.berlin.utils
 	url = https://github.com/KWB-R/sema.berlin.utils
 [submodule "swmmr"]
 	path = swmmr
 	url = https://github.com/hsonne/swmmr
+	registered = false
 [submodule "urbanAnnualRunoff"]
 	path = urbanAnnualRunoff
 	url = https://github.com/KWB-R/urbanAnnualRunoff
@@ -350,3 +375,4 @@
 [submodule "wordcloud2"]
 	path = wordcloud2
 	url = https://github.com/Lchiffon/wordcloud2
+	registered = false
